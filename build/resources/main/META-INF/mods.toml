@@ -1,0 +1,32 @@
+modLoader="javafml" #mandatory
+loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+[[mods]] #mandatory
+modId="darkagesexpedition"
+version="0.0.1"
+displayName="Dark Ages Expedition"
+updateJSONURL="https://github.com/FlamingSharky/DarkAgesExpedition"
+displayURL="Dark Ages Expedition Curseforge Page"
+logoFile="logo.png"
+credits="Thanks for downloading!"
+authors="Sharky"
+description='''
+      Imagine a world where the past is the present. Done? Well this is that but instead this is Minecraft (Video Game). The world is full of legends, myths, kingdoms, and science. You sir, lass or any pronoun, have been allowed to go in search of whatever goal you may have, we intend to make said goal harder, funner, and hopefully, worth the time.
+      '''
+
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.examplemod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[39,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
