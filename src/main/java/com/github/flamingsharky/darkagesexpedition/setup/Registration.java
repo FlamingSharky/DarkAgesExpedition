@@ -58,6 +58,6 @@ public class Registration {
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block) {
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));
     }
+    //ITEM
 
-    //ITEMS
 }
