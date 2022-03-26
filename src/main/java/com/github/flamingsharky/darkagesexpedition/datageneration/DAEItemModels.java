@@ -14,14 +14,15 @@ public class DAEItemModels extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        withExistingParent(Registration.GREENMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/greenmetal_block"));
-        withExistingParent(Registration.GREENMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/greenmetal_ore"));
-        withExistingParent(Registration.DEEPSLATE_GREENMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate-greenmetal_ore"));
-        withExistingParent(Registration.RAW_GREENMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw-greenmetal_block"));
-
-        withExistingParent(Registration.WHITEMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/whitemetal_block"));
-        withExistingParent(Registration.WHITEMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/whitemetal_ore"));
-        withExistingParent(Registration.DEEPSLATE_WHITEMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate-whitemetal_ore"));
-        withExistingParent(Registration.RAW_WHITEMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw-whitemetal_block"));
+        //Poisonmetal
+        withExistingParent(Registration.GREENMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/poisonmetal_block"));
+        withExistingParent(Registration.GREENMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/poisonmetal_ore"));
+        withExistingParent(Registration.DEEPSLATE_GREENMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate-poisonmetal_ore"));
+        withExistingParent(Registration.RAW_GREENMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw-poisonmetal_block"));
+        //Holymetal
+        withExistingParent(Registration.WHITEMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/holymetal_block"));
+        withExistingParent(Registration.WHITEMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/holymetal_ore"));
+        withExistingParent(Registration.DEEPSLATE_WHITEMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate-holymetal_ore"));
+        withExistingParent(Registration.RAW_WHITEMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw-holymetal_block"));
     }
 }

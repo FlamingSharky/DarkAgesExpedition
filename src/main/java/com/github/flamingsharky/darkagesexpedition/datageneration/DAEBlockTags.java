@@ -38,6 +38,16 @@ public class DAEBlockTags  extends BlockTagsProvider {
                 .add(Registration.WHITEMETAL_ORE.get())
                 .add(Registration.DEEPSLATE_WHITEMETAL_ORE.get())
                 .add(Registration.RAW_WHITEMETAL_BLOCK.get());
+        tag(BlockTags.STONE_ORE_REPLACEABLES)
+                //Pre-Diamond Metals
+                .add(Registration.GREENMETAL_ORE.get())
+                .add(Registration.WHITEMETAL_ORE.get());
+
+        tag(BlockTags.DEEPSLATE_ORE_REPLACEABLES)
+                //Pre-Diamond Metals
+                .add(Registration.DEEPSLATE_GREENMETAL_ORE.get())
+                .add(Registration.DEEPSLATE_WHITEMETAL_ORE.get());
+                //Pre-Netherite Metals
         tag(Tags.Blocks.ORES)
                 //Poisonmetal
                 .add(Registration.GREENMETAL_ORE.get())

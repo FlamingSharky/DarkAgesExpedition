@@ -11,10 +11,6 @@ public class DAEModWeaponTiers {
             0f, 22, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(DAEModItemList.WHITEMETAL_INGOT.get()));
 
-    public static final ForgeTier GRAYMETAL = new ForgeTier(3, 2032, 1f,
-            0f, 22, BlockTags.NEEDS_DIAMOND_TOOL,
-            () -> Ingredient.of(DAEModItemList.GRAYMETAL_INGOT.get()));
-
     public static final ForgeTier GOLDCRUST = new ForgeTier(2, 632, 1f,
             0f, 22, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(Items.GOLD_INGOT, Items.IRON_INGOT));

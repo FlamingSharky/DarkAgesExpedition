@@ -17,18 +17,18 @@ public class DAEModItemList {
 
 
     //Whitemetal
-    public static final RegistryObject<Item> WHITEMETAL_INGOT = ITEMS.register("whitemetal_ingot",
+    public static final RegistryObject<Item> WHITEMETAL_INGOT = ITEMS.register("holymetal_ingot",
             () -> new Item(new Item.Properties().tab(DAEMod.DAEModTab)));
-    public static final RegistryObject<Item> WHITEMETAL_NUGGET = ITEMS.register("whitemetal_nugget",
+    public static final RegistryObject<Item> WHITEMETAL_NUGGET = ITEMS.register("holymetal_nugget",
             () -> new Item(new Item.Properties().tab(DAEMod.DAEModTab)));
-    public static final RegistryObject<Item> RAW_WHITEMETAL = ITEMS.register("raw_whitemetal",
+    public static final RegistryObject<Item> RAW_WHITEMETAL = ITEMS.register("raw_holymetal",
             () -> new Item(new Item.Properties().tab(DAEMod.DAEModTab)));
     //Greenmetal
-    public static final RegistryObject<Item> GREENMETAL_INGOT = ITEMS.register("greenmetal_ingot",
+    public static final RegistryObject<Item> GREENMETAL_INGOT = ITEMS.register("poisonmetal_ingot",
             () -> new Item(new Item.Properties().tab(DAEMod.DAEModTab)));
-    public static final RegistryObject<Item> GREENMETAL_NUGGET = ITEMS.register("greenmetal_nugget",
+    public static final RegistryObject<Item> GREENMETAL_NUGGET = ITEMS.register("poisonmetal_nugget",
             () -> new Item(new Item.Properties().tab(DAEMod.DAEModTab)));
-    public static final RegistryObject<Item> RAW_GREENMETAL = ITEMS.register("raw_greenmetal",
+    public static final RegistryObject<Item> RAW_GREENMETAL = ITEMS.register("raw_poisonmetal",
             () -> new Item(new Item.Properties().tab(DAEMod.DAEModTab)));
 
 
@@ -43,7 +43,7 @@ public class DAEModItemList {
     public static final RegistryObject<Item> GOLDCRUST_LONGSWORD = ITEMS.register("goldcrust_longsword",
             () -> new SwordItem(DAEModWeaponTiers.GOLDCRUST, 2, 0.8f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));
-    public static final RegistryObject<Item> WHITEMETAL_LONGSWORD = ITEMS.register("whitemetal_longsword",
+    public static final RegistryObject<Item> WHITEMETAL_LONGSWORD = ITEMS.register("holymetal_longsword",
             () -> new SwordItem(DAEModWeaponTiers.WHITEMETAL, 2, 0.8f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));
 
@@ -57,7 +57,7 @@ public class DAEModItemList {
     public static final RegistryObject<Item> GOLDCRUST_WARAXE = ITEMS.register("goldcrust_waraxe",
             () -> new AxeItem(DAEModWeaponTiers.GOLDCRUST, 10, 4f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));
-    public static final RegistryObject<Item> WHITEMETAL_WARAXE = ITEMS.register("whitemetal_waraxe",
+    public static final RegistryObject<Item> WHITEMETAL_WARAXE = ITEMS.register("holymetal_waraxe",
             () -> new AxeItem(DAEModWeaponTiers.WHITEMETAL, 10, 4f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));
 
@@ -71,7 +71,7 @@ public class DAEModItemList {
     public static final RegistryObject<Item> GOLDCRUST_DAGGER = ITEMS.register("goldcrust_dagger",
             () -> new SwordItem(DAEModWeaponTiers.GOLDCRUST, 10, 4f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));
-    public static final RegistryObject<Item> WHITEMETAL_DAGGER = ITEMS.register("whitemetal_dagger",
+    public static final RegistryObject<Item> WHITEMETAL_DAGGER = ITEMS.register("holymetal_dagger",
             () -> new SwordItem(DAEModWeaponTiers.WHITEMETAL, 10, 4f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));
 

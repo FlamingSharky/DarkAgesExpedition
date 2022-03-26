@@ -1,8 +1,13 @@
 {
   "replace": false,
   "values": [
-    "darkagesexpedition:tungsten_ore",
-    "darkagesexpedition:rawtungsten_block",
-    "darkagesexpedition:tungsten_block"
+    "darkagesexpedition:poisonmetal_block",
+    "darkagesexpedition:poisonmetal_ore",
+    "darkagesexpedition:deepslate-poisonmetal_ore",
+    "darkagesexpedition:raw-poisonmetal_block",
+    "darkagesexpedition:holymetal_block",
+    "darkagesexpedition:holymetal_ore",
+    "darkagesexpedition:deepslate-holymetal_ore",
+    "darkagesexpedition:raw-holymetal_block"
   ]
 }

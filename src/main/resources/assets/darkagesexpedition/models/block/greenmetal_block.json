@@ -1,4 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": { "all": "darkagesexpedition:block/refined_metals/greenmetal_block" }
-}

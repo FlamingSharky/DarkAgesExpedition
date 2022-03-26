@@ -21,7 +21,6 @@ public class DataGenerators {
         if (event.includeClient()) {
             generator.addProvider(new DAEBlockStates(generator, event.getExistingFileHelper()));
             generator.addProvider(new DAEItemModels(generator, event.getExistingFileHelper()));
-            generator.addProvider(new DAELanguageProvider(generator, "en_us"));
         }
     }
 }
