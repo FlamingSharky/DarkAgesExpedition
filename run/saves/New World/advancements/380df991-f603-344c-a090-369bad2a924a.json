@@ -251,6 +251,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2022-03-28 17:47:03 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2022-03-28 15:29:46 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_hoe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2022-03-07 17:54:54 -0400"
@@ -410,6 +422,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-03-08 12:29:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2022-03-28 15:29:59 -0400"
     },
     "done": true
   },
@@ -713,6 +731,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_smelting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2022-03-28 15:29:54 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2022-03-08 08:37:37 -0400"
@@ -763,6 +787,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2022-03-28 17:47:02 -0400",
       "minecraft:wither": "2022-03-11 12:59:57 -0400"
     },
     "done": false
@@ -833,6 +858,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2022-03-28 15:29:54 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2022-03-11 13:00:56 -0400"
@@ -896,6 +927,12 @@
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2022-03-03 13:32:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2022-03-28 15:29:59 -0400"
     },
     "done": true
   },
@@ -977,6 +1014,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2022-03-28 15:30:00 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2022-03-04 10:43:36 -0400"
@@ -1028,6 +1071,12 @@
   "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
     "criteria": {
       "has_coal_ore": "2022-03-04 10:43:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_diamond_ore": {
+    "criteria": {
+      "has_diamond_ore": "2022-03-28 15:29:54 -0400"
     },
     "done": true
   },
@@ -1259,6 +1308,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2022-03-28 15:29:46 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2022-03-02 12:25:46 -0400"
@@ -1286,6 +1341,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-03-08 12:29:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2022-03-28 15:30:00 -0400"
     },
     "done": true
   },
@@ -1371,6 +1432,7 @@
       "minecraft:forest": "2022-02-27 13:35:59 -0400",
       "minecraft:deep_cold_ocean": "2022-03-08 08:24:02 -0400",
       "minecraft:ocean": "2022-03-08 08:22:59 -0400",
+      "minecraft:windswept_savanna": "2022-03-28 17:25:02 -0400",
       "minecraft:plains": "2022-02-27 13:36:27 -0400"
     },
     "done": false
@@ -1522,6 +1584,12 @@
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-03-08 12:27:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2022-03-28 15:29:54 -0400"
     },
     "done": true
   },

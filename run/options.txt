@@ -24,7 +24,7 @@ fov:0.5
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.5
-renderDistance:12
+renderDistance:13
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
@@ -36,7 +36,7 @@ ao:0
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:false
-resourcePacks:[]
+resourcePacks:["vanilla","mod_resources","programer_art"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

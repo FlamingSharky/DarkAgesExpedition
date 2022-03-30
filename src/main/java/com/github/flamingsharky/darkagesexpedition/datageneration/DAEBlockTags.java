@@ -17,44 +17,50 @@ public class DAEBlockTags  extends BlockTagsProvider {
     @Override
     protected void addTags() {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                //Poisonmetal
-                .add(Registration.GREENMETAL_BLOCK.get())
-                .add(Registration.GREENMETAL_ORE.get())
-                .add(Registration.DEEPSLATE_GREENMETAL_ORE.get())
-                .add(Registration.RAW_GREENMETAL_BLOCK.get())
-                //Holymetal
-                .add(Registration.WHITEMETAL_BLOCK.get())
-                .add(Registration.WHITEMETAL_ORE.get())
-                .add(Registration.DEEPSLATE_WHITEMETAL_ORE.get())
-                .add(Registration.RAW_WHITEMETAL_BLOCK.get());
+                //VENEUM
+                .add(Registration.VENEUM_BLOCK.get())
+                .add(Registration.VENEUM_ORE.get())
+                .add(Registration.DEEPSLATE_VENEUM_ORE.get())
+                .add(Registration.TUFF_VENEUM_ORE.get())
+                .add(Registration.RAW_VENEUM_BLOCK.get())
+                //SANCTUM
+                .add(Registration.SANCTUM_BLOCK.get())
+                .add(Registration.SANCTUM_ORE.get())
+                .add(Registration.DEEPSLATE_SANCTUM_ORE.get())
+                .add(Registration.TUFF_SANCTUM_ORE.get())
+                .add(Registration.RAW_SANCTUM_BLOCK.get());
         tag(BlockTags.NEEDS_IRON_TOOL)
-                //Poisonmetal
-                .add(Registration.GREENMETAL_BLOCK.get())
-                .add(Registration.GREENMETAL_ORE.get())
-                .add(Registration.DEEPSLATE_GREENMETAL_ORE.get())
-                .add(Registration.RAW_GREENMETAL_BLOCK.get())
-                //Holymetal
-                .add(Registration.WHITEMETAL_BLOCK.get())
-                .add(Registration.WHITEMETAL_ORE.get())
-                .add(Registration.DEEPSLATE_WHITEMETAL_ORE.get())
-                .add(Registration.RAW_WHITEMETAL_BLOCK.get());
+                //VENEUM
+                .add(Registration.VENEUM_BLOCK.get())
+                .add(Registration.VENEUM_ORE.get())
+                .add(Registration.DEEPSLATE_VENEUM_ORE.get())
+                .add(Registration.TUFF_VENEUM_ORE.get())
+                .add(Registration.RAW_VENEUM_BLOCK.get())
+                //SANCTUM
+                .add(Registration.SANCTUM_BLOCK.get())
+                .add(Registration.SANCTUM_ORE.get())
+                .add(Registration.DEEPSLATE_SANCTUM_ORE.get())
+                .add(Registration.TUFF_SANCTUM_ORE.get())
+                .add(Registration.RAW_SANCTUM_BLOCK.get());
         tag(BlockTags.STONE_ORE_REPLACEABLES)
                 //Pre-Diamond Metals
-                .add(Registration.GREENMETAL_ORE.get())
-                .add(Registration.WHITEMETAL_ORE.get());
+                .add(Registration.VENEUM_ORE.get())
+                .add(Registration.SANCTUM_ORE.get());
 
         tag(BlockTags.DEEPSLATE_ORE_REPLACEABLES)
                 //Pre-Diamond Metals
-                .add(Registration.DEEPSLATE_GREENMETAL_ORE.get())
-                .add(Registration.DEEPSLATE_WHITEMETAL_ORE.get());
+                .add(Registration.DEEPSLATE_VENEUM_ORE.get())
+                .add(Registration.DEEPSLATE_SANCTUM_ORE.get());
                 //Pre-Netherite Metals
         tag(Tags.Blocks.ORES)
-                //Poisonmetal
-                .add(Registration.GREENMETAL_ORE.get())
-                .add(Registration.DEEPSLATE_GREENMETAL_ORE.get())
-                //Holymetal
-                .add(Registration.WHITEMETAL_ORE.get())
-                .add(Registration.DEEPSLATE_WHITEMETAL_ORE.get());
+                //VENEUM
+                .add(Registration.VENEUM_ORE.get())
+                .add(Registration.DEEPSLATE_VENEUM_ORE.get())
+                .add(Registration.TUFF_VENEUM_ORE.get())
+                //SANCTUM
+                .add(Registration.SANCTUM_ORE.get())
+                .add(Registration.DEEPSLATE_SANCTUM_ORE.get())
+                .add(Registration.TUFF_SANCTUM_ORE.get());
     }
 
     @Override

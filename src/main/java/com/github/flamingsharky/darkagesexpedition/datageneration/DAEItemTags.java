@@ -17,12 +17,12 @@ public class DAEItemTags extends ItemTagsProvider {
     @Override
     protected void addTags() {
         tag(Tags.Items.ORES)
-                //Poisonmetal
-                .add(Registration.GREENMETAL_ORE_ITEM.get())
-                .add(Registration.DEEPSLATE_GREENMETAL_ORE_ITEM.get())
-                //Holymetal
-                .add(Registration.WHITEMETAL_ORE_ITEM.get())
-                .add(Registration.DEEPSLATE_WHITEMETAL_ORE_ITEM.get());
+                //VENEUM
+                .add(Registration.VENEUM_ORE_ITEM.get())
+                .add(Registration.DEEPSLATE_VENEUM_ORE_ITEM.get())
+                //SANCTUM
+                .add(Registration.SANCTUM_ORE_ITEM.get())
+                .add(Registration.DEEPSLATE_SANCTUM_ORE_ITEM.get());
     }
 
     @Override

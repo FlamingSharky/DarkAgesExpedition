@@ -14,15 +14,17 @@ public class DAEBlockStates extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        simpleBlock(Registration.GREENMETAL_BLOCK.get());
-        simpleBlock(Registration.GREENMETAL_ORE.get());
-        simpleBlock(Registration.DEEPSLATE_GREENMETAL_ORE.get());
-        simpleBlock(Registration.RAW_GREENMETAL_BLOCK.get());
+        simpleBlock(Registration.VENEUM_BLOCK.get());
+        simpleBlock(Registration.VENEUM_ORE.get());
+        simpleBlock(Registration.DEEPSLATE_VENEUM_ORE.get());
+        simpleBlock(Registration.TUFF_VENEUM_ORE.get());
+        simpleBlock(Registration.RAW_VENEUM_BLOCK.get());
 
 
-        simpleBlock(Registration.WHITEMETAL_BLOCK.get());
-        simpleBlock(Registration.WHITEMETAL_ORE.get());
-        simpleBlock(Registration.DEEPSLATE_WHITEMETAL_ORE.get());
-        simpleBlock(Registration.RAW_WHITEMETAL_BLOCK.get());
+        simpleBlock(Registration.SANCTUM_BLOCK.get());
+        simpleBlock(Registration.SANCTUM_ORE.get());
+        simpleBlock(Registration.DEEPSLATE_SANCTUM_ORE.get());
+        simpleBlock(Registration.TUFF_SANCTUM_ORE.get());
+        simpleBlock(Registration.RAW_SANCTUM_BLOCK.get());
     }
 }

@@ -1,4 +1,4 @@
-package com.github.flamingsharky.darkagesexpedition.datageneration;
+    package com.github.flamingsharky.darkagesexpedition.datageneration;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

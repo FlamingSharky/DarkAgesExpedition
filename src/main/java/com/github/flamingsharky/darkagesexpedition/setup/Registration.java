@@ -29,29 +29,33 @@ public class Registration {
 
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(DAEMod.DAEModTab);
 
-    //Greenmetal
-    public static final BlockBehaviour.Properties GREENMETAL_PROPERTIES = BlockBehaviour.Properties.of(Material.METAL).strength(3F).requiresCorrectToolForDrops();
+    //Poison
+    public static final BlockBehaviour.Properties VENEUM_PROPERTIES = BlockBehaviour.Properties.of(Material.METAL).strength(3F).requiresCorrectToolForDrops();
 
-    public static final RegistryObject<Block> GREENMETAL_ORE = BLOCKS.register("poisonmetal_ore", () -> new Block(GREENMETAL_PROPERTIES));
-    public static final RegistryObject<Item> GREENMETAL_ORE_ITEM = fromBlock(GREENMETAL_ORE);
-    public static final RegistryObject<Block> DEEPSLATE_GREENMETAL_ORE = BLOCKS.register("deepslate-poisonmetal_ore", () -> new Block(GREENMETAL_PROPERTIES));
-    public static final RegistryObject<Item> DEEPSLATE_GREENMETAL_ORE_ITEM = fromBlock(DEEPSLATE_GREENMETAL_ORE);
-    public static final RegistryObject<Block> RAW_GREENMETAL_BLOCK = BLOCKS.register("raw-poisonmetal_block", () -> new Block(GREENMETAL_PROPERTIES));
-    public static final RegistryObject<Item> RAW_GREENMETAL_BLOCK_ITEM = fromBlock(RAW_GREENMETAL_BLOCK);
-    public static final RegistryObject<Block> GREENMETAL_BLOCK = BLOCKS.register("poisonmetal_block", () -> new Block(GREENMETAL_PROPERTIES));
-    public static final RegistryObject<Item> GREENMETAL_BLOCK_ITEM = fromBlock(GREENMETAL_BLOCK);
+    public static final RegistryObject<Block> VENEUM_ORE = BLOCKS.register("veneum_ore", () -> new Block(VENEUM_PROPERTIES));
+    public static final RegistryObject<Item> VENEUM_ORE_ITEM = fromBlock(VENEUM_ORE);
+    public static final RegistryObject<Block> DEEPSLATE_VENEUM_ORE = BLOCKS.register("deepslate-veneum_ore", () -> new Block(VENEUM_PROPERTIES));
+    public static final RegistryObject<Item> DEEPSLATE_VENEUM_ORE_ITEM = fromBlock(DEEPSLATE_VENEUM_ORE);
+    public static final RegistryObject<Block> TUFF_VENEUM_ORE = BLOCKS.register("tuff-veneum_ore", () -> new Block(VENEUM_PROPERTIES));
+    public static final RegistryObject<Item> TUFF_VENEUM_ORE_ITEM = fromBlock(TUFF_VENEUM_ORE);
+    public static final RegistryObject<Block> RAW_VENEUM_BLOCK = BLOCKS.register("raw-veneum_block", () -> new Block(VENEUM_PROPERTIES));
+    public static final RegistryObject<Item> RAW_VENEUM_BLOCK_ITEM = fromBlock(RAW_VENEUM_BLOCK);
+    public static final RegistryObject<Block> VENEUM_BLOCK = BLOCKS.register("veneum_block", () -> new Block(VENEUM_PROPERTIES));
+    public static final RegistryObject<Item> VENEUM_BLOCK_ITEM = fromBlock(VENEUM_BLOCK);
 
-    //Whitemetal
-    public static final BlockBehaviour.Properties WHITEMETAL_PROPERTIES = BlockBehaviour.Properties.of(Material.METAL).strength(3F).requiresCorrectToolForDrops();
+    //SANCTUM
+    public static final BlockBehaviour.Properties SANCTUM_PROPERTIES = BlockBehaviour.Properties.of(Material.METAL).strength(3F).requiresCorrectToolForDrops();
 
-    public static final RegistryObject<Block> WHITEMETAL_ORE = BLOCKS.register("holymetal_ore", () -> new Block(WHITEMETAL_PROPERTIES));
-    public static final RegistryObject<Item> WHITEMETAL_ORE_ITEM = fromBlock(WHITEMETAL_ORE);
-    public static final RegistryObject<Block> DEEPSLATE_WHITEMETAL_ORE = BLOCKS.register("deepslate-holymetal_ore", () -> new Block(WHITEMETAL_PROPERTIES));
-    public static final RegistryObject<Item> DEEPSLATE_WHITEMETAL_ORE_ITEM = fromBlock(DEEPSLATE_WHITEMETAL_ORE);
-    public static final RegistryObject<Block> RAW_WHITEMETAL_BLOCK = BLOCKS.register("raw-holymetal_block", () -> new Block(WHITEMETAL_PROPERTIES));
-    public static final RegistryObject<Item> RAW_WHITEMETAL_BLOCK_ITEM = fromBlock(RAW_WHITEMETAL_BLOCK);
-    public static final RegistryObject<Block> WHITEMETAL_BLOCK = BLOCKS.register("holymetal_block", () -> new Block(WHITEMETAL_PROPERTIES));
-    public static final RegistryObject<Item> WHITEMETAL_BLOCK_ITEM = fromBlock(WHITEMETAL_BLOCK);
+    public static final RegistryObject<Block> SANCTUM_ORE = BLOCKS.register("sanctum_ore", () -> new Block(SANCTUM_PROPERTIES));
+    public static final RegistryObject<Item> SANCTUM_ORE_ITEM = fromBlock(SANCTUM_ORE);
+    public static final RegistryObject<Block> DEEPSLATE_SANCTUM_ORE = BLOCKS.register("deepslate-sanctum_ore", () -> new Block(SANCTUM_PROPERTIES));
+    public static final RegistryObject<Item> DEEPSLATE_SANCTUM_ORE_ITEM = fromBlock(DEEPSLATE_SANCTUM_ORE);
+    public static final RegistryObject<Block> TUFF_SANCTUM_ORE = BLOCKS.register("tuff-sanctum_ore", () -> new Block(VENEUM_PROPERTIES));
+    public static final RegistryObject<Item> TUFF_SANCTUM_ORE_ITEM = fromBlock(TUFF_SANCTUM_ORE);
+    public static final RegistryObject<Block> RAW_SANCTUM_BLOCK = BLOCKS.register("raw-sanctum_block", () -> new Block(SANCTUM_PROPERTIES));
+    public static final RegistryObject<Item> RAW_SANCTUM_BLOCK_ITEM = fromBlock(RAW_SANCTUM_BLOCK);
+    public static final RegistryObject<Block> SANCTUM_BLOCK = BLOCKS.register("sanctum_block", () -> new Block(SANCTUM_PROPERTIES));
+    public static final RegistryObject<Item> SANCTUM_BLOCK_ITEM = fromBlock(SANCTUM_BLOCK);
 
 
     //Block Item (Probably should use a different note name since there is already a value which is BlockItem, but it just gets the block and turns it into an item.)

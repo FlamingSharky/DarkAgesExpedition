@@ -11,5 +11,6 @@ public class DAELootTables extends BaseLootTableProvider {
 
     @Override
     protected void addTables() {
+        //idk
     }
 }

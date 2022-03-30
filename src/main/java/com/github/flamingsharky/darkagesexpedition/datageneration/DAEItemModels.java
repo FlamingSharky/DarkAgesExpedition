@@ -14,15 +14,17 @@ public class DAEItemModels extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        //Poisonmetal
-        withExistingParent(Registration.GREENMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/poisonmetal_block"));
-        withExistingParent(Registration.GREENMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/poisonmetal_ore"));
-        withExistingParent(Registration.DEEPSLATE_GREENMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate-poisonmetal_ore"));
-        withExistingParent(Registration.RAW_GREENMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw-poisonmetal_block"));
-        //Holymetal
-        withExistingParent(Registration.WHITEMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/holymetal_block"));
-        withExistingParent(Registration.WHITEMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/holymetal_ore"));
-        withExistingParent(Registration.DEEPSLATE_WHITEMETAL_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate-holymetal_ore"));
-        withExistingParent(Registration.RAW_WHITEMETAL_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw-holymetal_block"));
+        //VENEUM
+        withExistingParent(Registration.VENEUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/veneum_block"));
+        withExistingParent(Registration.VENEUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/veneum_ore"));
+        withExistingParent(Registration.DEEPSLATE_VENEUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate-veneum_ore"));
+        withExistingParent(Registration.TUFF_VENEUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/tuff-veneum_ore"));
+        withExistingParent(Registration.RAW_VENEUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw-veneum_block"));
+        //SANCTUM
+        withExistingParent(Registration.SANCTUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/sanctum_block"));
+        withExistingParent(Registration.SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/sactum_ore"));
+        withExistingParent(Registration.DEEPSLATE_SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate-sanctum_ore"));
+        withExistingParent(Registration.TUFF_SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/tuff-sanctum_ore"));
+        withExistingParent(Registration.RAW_SANCTUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw-sanctum_block"));
     }
 }
