@@ -1,7 +1,7 @@
 package com.github.flamingsharky.darkagesexpedition.datageneration;
 
+import com.github.flamingsharky.darkagesexpedition.setup.Registration;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.DataProvider;
 
 public class DAELootTables extends BaseLootTableProvider {
 
@@ -11,6 +11,30 @@ public class DAELootTables extends BaseLootTableProvider {
 
     @Override
     protected void addTables() {
-        //idk
+        //Veneum
+        lootTables.put(Registration.VENEUM_ORE.get(), createSilkTouchTable("veneum_ore",
+                Registration.VENEUM_ORE.get(),
+                Registration.RAW_VENEUM.get(), 1, 1));
+        lootTables.put(Registration.DEEPSLATE_VENEUM_ORE.get(), createSilkTouchTable("deepslate-veneum_ore",
+                Registration.DEEPSLATE_VENEUM_ORE.get(),
+                Registration.RAW_VENEUM.get(), 1, 1));
+        lootTables.put(Registration.TUFF_VENEUM_ORE.get(), createSilkTouchTable("tuff-veneum_ore",
+                Registration.TUFF_VENEUM_ORE.get(),
+                Registration.RAW_VENEUM.get(), 1, 1));
+        lootTables.put(Registration.VENEUM_BLOCK.get(), createSimpleTable("veneum_block",
+                Registration.VENEUM_BLOCK.get()));
+
+        //Sanctum
+        lootTables.put(Registration.SANCTUM_ORE.get(), createSilkTouchTable("sanctum_ore",
+                Registration.SANCTUM_ORE.get(),
+                Registration.RAW_SANCTUM.get(), 1, 1));
+        lootTables.put(Registration.DEEPSLATE_SANCTUM_ORE.get(), createSilkTouchTable("deepslate-sanctum_ore",
+                Registration.DEEPSLATE_SANCTUM_ORE.get(),
+                Registration.RAW_SANCTUM.get(), 1, 1));
+        lootTables.put(Registration.TUFF_SANCTUM_ORE.get(), createSilkTouchTable("tuff-sanctum_ore",
+                Registration.TUFF_SANCTUM_ORE.get(),
+                Registration.RAW_SANCTUM.get(), 1, 1));
+        lootTables.put(Registration.SANCTUM_BLOCK.get(), createSimpleTable("sanctum_block",
+                Registration.SANCTUM_BLOCK.get()));
     }
 }

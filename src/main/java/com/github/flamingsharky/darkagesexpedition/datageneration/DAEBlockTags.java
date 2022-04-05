@@ -61,6 +61,18 @@ public class DAEBlockTags  extends BlockTagsProvider {
                 .add(Registration.SANCTUM_ORE.get())
                 .add(Registration.DEEPSLATE_SANCTUM_ORE.get())
                 .add(Registration.TUFF_SANCTUM_ORE.get());
+        tag(Registration.SANCTUM_BLOCKS)
+                .add(Registration.SANCTUM_BLOCK.get())
+                .add(Registration.SANCTUM_ORE.get())
+                .add(Registration.DEEPSLATE_SANCTUM_ORE.get())
+                .add(Registration.TUFF_SANCTUM_ORE.get())
+                .add(Registration.RAW_SANCTUM_BLOCK.get());
+        tag(Registration.VENEUM_BLOCKS)
+                .add(Registration.VENEUM_BLOCK.get())
+                .add(Registration.VENEUM_ORE.get())
+                .add(Registration.DEEPSLATE_VENEUM_ORE.get())
+                .add(Registration.TUFF_VENEUM_ORE.get())
+                .add(Registration.RAW_VENEUM_BLOCK.get());
     }
 
     @Override

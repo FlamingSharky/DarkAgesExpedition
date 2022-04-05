@@ -1,13 +1,15 @@
 {
   "replace": false,
   "values": [
-    "darkagesexpedition:poisonmetal_block",
-    "darkagesexpedition:poisonmetal_ore",
-    "darkagesexpedition:deepslate-poisonmetal_ore",
-    "darkagesexpedition:raw-poisonmetal_block",
-    "darkagesexpedition:holymetal_block",
-    "darkagesexpedition:holymetal_ore",
-    "darkagesexpedition:deepslate-holymetal_ore",
-    "darkagesexpedition:raw-holymetal_block"
+    "darkagesexpedition:veneum_block",
+    "darkagesexpedition:veneum_ore",
+    "darkagesexpedition:deepslate-veneum_ore",
+    "darkagesexpedition:tuff-veneum_ore",
+    "darkagesexpedition:raw-veneum_block",
+    "darkagesexpedition:sanctum_block",
+    "darkagesexpedition:sanctum_ore",
+    "darkagesexpedition:deepslate-sanctum_ore",
+    "darkagesexpedition:tuff-sanctum_ore",
+    "darkagesexpedition:raw-sanctum_block"
   ]
 }

@@ -42,7 +42,7 @@ public class DAEMod
         @Override
         public ItemStack makeIcon()
         {
-            return new ItemStack(DAEModItemList.SANCTUM_INGOT.get());
+            return new ItemStack(Registration.SANCTUM_INGOT.get());
         }
     };
 }

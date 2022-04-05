@@ -23,6 +23,12 @@ public class DAEItemTags extends ItemTagsProvider {
                 //SANCTUM
                 .add(Registration.SANCTUM_ORE_ITEM.get())
                 .add(Registration.DEEPSLATE_SANCTUM_ORE_ITEM.get());
+        tag(Tags.Items.INGOTS)
+                .add(Registration.SANCTUM_INGOT.get())
+                .add(Registration.VENEUM_INGOT.get());
+        tag(Tags.Items.NUGGETS)
+                .add(Registration.SANCTUM_NUGGET.get())
+                .add(Registration.VENEUM_NUGGET.get());
     }
 
     @Override
