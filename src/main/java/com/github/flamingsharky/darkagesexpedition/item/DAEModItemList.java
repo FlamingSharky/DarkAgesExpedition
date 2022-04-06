@@ -24,10 +24,10 @@ public class DAEModItemList {
             () -> new SwordItem(Tiers.DIAMOND, 2, -2.4f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));
     public static final RegistryObject<Item> GOLDCRUST_LONGSWORD = ITEMS.register("goldcrust_longsword",
-            () -> new SwordItem(DAEModWeaponTiers.GOLDCRUST, 2, -2.4f,
+            () -> new SwordItem(DAEModWeaponTiers.GOLDCRUST, 3, -2.4f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));
-    public static final RegistryObject<Item> SANCTUM_LONGSWORD = ITEMS.register("veneum_longsword",
-            () -> new SwordItem(DAEModWeaponTiers.SANCTUM, 2, -2.4f,
+    public static final RegistryObject<Item> VENEUM_LONGSWORD = ITEMS.register("veneum_longsword",
+            () -> new SwordItem(DAEModWeaponTiers.VENEUM, 4, -2.4f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));
 
     //Waraxes

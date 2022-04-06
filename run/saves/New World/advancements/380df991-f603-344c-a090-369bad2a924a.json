@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2022-04-05 09:48:41 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2022-02-27 19:49:01 -0400"
@@ -71,6 +77,12 @@
     },
     "done": true
   },
+  "darkagesexpedition:recipes/darkagescreativetab/veneum_longsword": {
+    "criteria": {
+      "veneum_longsword": "2022-04-05 12:01:54 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_pickaxe": {
     "criteria": {
       "has_iron_ingot": "2022-03-02 12:26:33 -0400"
@@ -119,6 +131,12 @@
     },
     "done": true
   },
+  "darkagesexpedition:recipes/darkagescreativetab/veneum_ingot": {
+    "criteria": {
+      "veneum_ingot1": "2022-04-05 12:01:54 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2022-03-10 08:57:11 -0400"
@@ -140,6 +158,12 @@
   "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
     "criteria": {
       "has_copper_block": "2022-03-03 13:32:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2022-04-05 12:04:07 -0400"
     },
     "done": true
   },
@@ -209,6 +233,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2022-04-05 12:04:07 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/torch": {
     "criteria": {
       "has_stone_pickaxe": "2022-03-03 09:26:38 -0400"
@@ -269,6 +299,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/darkagescreativetab/raw-veneum_block1": {
+    "criteria": {
+      "raw-veneum_block1": "2022-04-05 12:28:35 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
     "criteria": {
       "has_copper_block": "2022-03-03 13:32:47 -0400"
@@ -296,6 +332,12 @@
   "minecraft:recipes/building_blocks/emerald_block": {
     "criteria": {
       "has_emerald": "2022-03-08 08:25:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/darkagescreativetab/veneum_nugget1": {
+    "criteria": {
+      "veneum_nugget1": "2022-04-05 12:01:54 -0400"
     },
     "done": true
   },
@@ -347,9 +389,21 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_porkchop": "2022-04-05 12:52:59 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2022-03-02 12:31:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2022-04-05 12:04:07 -0400"
     },
     "done": true
   },
@@ -635,9 +689,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/darkagescreativetab/veneum_ingot3": {
+    "criteria": {
+      "has_ore": "2022-04-05 12:48:54 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/darkagescreativetab/veneum_ingot2": {
     "criteria": {
-      "has_chunk": "2022-04-03 10:27:34 -0400"
+      "has_ore": "2022-04-05 12:48:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/darkagescreativetab/veneum_ingot5": {
+    "criteria": {
+      "veneum_ingot5": "2022-04-05 12:01:54 -0400"
     },
     "done": true
   },
@@ -647,9 +713,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/darkagescreativetab/veneum_ingot4": {
+    "criteria": {
+      "has_chunk": "2022-04-05 12:28:35 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2022-03-11 13:00:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/darkagescreativetab/veneum_ingot6": {
+    "criteria": {
+      "has_the_recipe": "2022-04-05 12:01:54 -0400"
     },
     "done": true
   },
@@ -674,6 +752,12 @@
   "minecraft:recipes/tools/iron_hoe": {
     "criteria": {
       "has_iron_ingot": "2022-03-02 12:26:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2022-04-05 12:04:07 -0400"
     },
     "done": true
   },
@@ -1074,6 +1158,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2022-04-05 12:04:07 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2022-02-27 19:49:01 -0400"
@@ -1146,6 +1236,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/darkagescreativetab/veneum_longsword": {
+    "criteria": {
+      "veneum_longsword": "2022-04-05 12:01:54 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_shovel_smithing": {
     "criteria": {
       "has_netherite_ingot": "2022-03-07 17:54:54 -0400"
@@ -1206,6 +1302,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/darkagescreativetab/veneum_block1": {
+    "criteria": {
+      "veneum_block1": "2022-04-05 12:49:24 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2022-03-04 10:43:36 -0400"
@@ -1251,6 +1353,12 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2022-03-08 12:27:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2022-04-05 12:04:07 -0400"
     },
     "done": true
   },
@@ -1332,6 +1440,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/darkagescreativetab/raw_veneum1": {
+    "criteria": {
+      "raw_veneum1": "2022-04-05 12:28:29 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2022-03-02 12:25:46 -0400"
@@ -1365,6 +1479,12 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2022-03-04 11:01:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2022-04-05 12:01:44 -0400"
     },
     "done": true
   },
@@ -1419,6 +1539,12 @@
   "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
     "criteria": {
       "has_deepslate_gold_ore": "2022-03-28 15:29:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2022-04-05 09:48:47 -0400"
     },
     "done": true
   },
@@ -1848,6 +1974,12 @@
   "minecraft:recipes/building_blocks/red_wool": {
     "criteria": {
       "has_white_wool": "2022-02-27 19:49:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2022-04-05 12:04:07 -0400"
     },
     "done": true
   },
