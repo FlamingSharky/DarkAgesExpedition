@@ -191,6 +191,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/darkagescreativetab/sanctum_nugget1": {
+    "criteria": {
+      "sanctum_nugget1": "2022-04-06 20:49:17 -0400"
+    },
+    "done": true
+  },
   "minecraft:nether/obtain_ancient_debris": {
     "criteria": {
       "ancient_debris": "2022-03-03 11:53:03 -0400"
@@ -1260,6 +1266,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/darkagescreativetab/sanctum_longsword": {
+    "criteria": {
+      "sanctum_longsword": "2022-04-06 20:47:30 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
     "criteria": {
       "has_coal_ore": "2022-03-04 10:43:25 -0400"
@@ -1296,6 +1308,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/darkagescreativetab/sanctum_ingot6": {
+    "criteria": {
+      "sanctum_ingot6": "2022-04-06 20:49:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/darkagescreativetab/sanctum_ingot5": {
+    "criteria": {
+      "sanctum_ingot5": "2022-04-06 20:49:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/darkagescreativetab/sanctum_ingot4": {
+    "criteria": {
+      "has_chunk": "2022-04-06 20:48:24 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2022-03-07 17:54:54 -0400"
@@ -1305,6 +1335,12 @@
   "minecraft:recipes/darkagescreativetab/veneum_block1": {
     "criteria": {
       "veneum_block1": "2022-04-05 12:49:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/darkagescreativetab/sanctum_ingot2": {
+    "criteria": {
+      "has_ore": "2022-04-06 20:50:38 -0400"
     },
     "done": true
   },
@@ -1323,6 +1359,12 @@
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_feather": "2022-03-10 21:36:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/darkagescreativetab/sanctum_ingot1": {
+    "criteria": {
+      "has_ore": "2022-04-09 20:45:29 -0400"
     },
     "done": true
   },
@@ -1431,6 +1473,12 @@
   "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
       "has_prismarine_crystals": "2022-03-08 08:25:02 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/darkagescreativetab/sanctum_block1": {
+    "criteria": {
+      "sanctum_block1": "2022-04-06 20:49:17 -0400"
     },
     "done": true
   },
@@ -1698,6 +1746,12 @@
   "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
     "criteria": {
       "has_deepslate_iron_ore": "2022-03-08 12:32:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/darkagescreativetab/raw-sanctum_block1": {
+    "criteria": {
+      "raw-sanctum_block1": "2022-04-06 20:48:24 -0400"
     },
     "done": true
   },

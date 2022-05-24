@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "darkagesexpedition:block/veneum_ore" }
+    "": { "model": "darkagesexpedition:block/metal-blocks/veneum_ore" }
   }
 }

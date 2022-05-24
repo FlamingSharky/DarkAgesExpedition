@@ -1,7 +1,7 @@
 package com.github.flamingsharky.darkagesexpedition;
 
 
-import com.github.flamingsharky.darkagesexpedition.item.DAEModItemList;
+import com.github.flamingsharky.darkagesexpedition.setup.Tool_List;
 import com.github.flamingsharky.darkagesexpedition.setup.ClientSetup;
 import com.github.flamingsharky.darkagesexpedition.setup.ModSetup;
 import com.github.flamingsharky.darkagesexpedition.setup.Registration;
@@ -13,6 +13,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.loading.FMLEnvironment;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -33,9 +34,13 @@ public class DAEMod
         MinecraftForge.EVENT_BUS.register(this);
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(ModSetup::init);
-        DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> eventBus.addListener(ClientSetup::init));
+        if (FMLEnvironment.dist == Dist.CLIENT) {
+            eventBus.addListener(ClientSetup::init);
+        }
 
-        DAEModItemList.register(eventBus);
+        ModSetup.setup();
+        Registration.init();
+        Tool_List.register(eventBus);
     }
 
     public static final CreativeModeTab DAEModTab = new CreativeModeTab("darkagescreativetab") {

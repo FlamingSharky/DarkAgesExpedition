@@ -20,6 +20,17 @@
   "block.darkagesexpedition.tuff-sanctum_ore": "Tuff Sanctum Ore",
 
 
+  "item.darkagesexpedition.sanctum_sword": "Sanctum Sword",
+  "item.darkagesexpedition.sanctum_pickaxe": "Sanctum Pickaxe",
+  "item.darkagesexpedition.sanctum_axe": "Sanctum Axe",
+  "item.darkagesexpedition.sanctum_shovel": "Sanctum Shovel",
+  "item.darkagesexpedition.sanctum_hoe": "Sanctum Hoe",
+
+  "item.darkagesexpedition.veneum_sword": "Veneum Sword",
+  "item.darkagesexpedition.veneum_pickaxe": "Veneum Pickaxe",
+  "item.darkagesexpedition.veneum_axe": "Veneum Axe",
+  "item.darkagesexpedition.veneum_shovel": "Veneum Shovel",
+  "item.darkagesexpedition.veneum_hoe": "Veneum Hoe",
 
   "item.darkagesexpedition.iron_longsword": "Iron Longsword",
   "item.darkagesexpedition.diamond_longsword": "Diamond Longsword",

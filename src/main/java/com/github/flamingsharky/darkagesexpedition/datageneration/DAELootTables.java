@@ -23,6 +23,8 @@ public class DAELootTables extends BaseLootTableProvider {
                 Registration.RAW_VENEUM.get(), 1, 1));
         lootTables.put(Registration.VENEUM_BLOCK.get(), createSimpleTable("veneum_block",
                 Registration.VENEUM_BLOCK.get()));
+        lootTables.put(Registration.RAW_VENEUM_BLOCK.get(), createSimpleTable("raw-veneum_block",
+                Registration.RAW_VENEUM_BLOCK.get()));
 
         //Sanctum
         lootTables.put(Registration.SANCTUM_ORE.get(), createSilkTouchTable("sanctum_ore",
@@ -36,5 +38,8 @@ public class DAELootTables extends BaseLootTableProvider {
                 Registration.RAW_SANCTUM.get(), 1, 1));
         lootTables.put(Registration.SANCTUM_BLOCK.get(), createSimpleTable("sanctum_block",
                 Registration.SANCTUM_BLOCK.get()));
+        lootTables.put(Registration.RAW_SANCTUM_BLOCK.get(), createSimpleTable("raw-sanctum_block",
+                Registration.RAW_SANCTUM_BLOCK.get()));
+
     }
 }
