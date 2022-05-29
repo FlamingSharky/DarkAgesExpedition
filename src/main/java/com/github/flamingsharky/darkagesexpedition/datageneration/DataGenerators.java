@@ -1,5 +1,8 @@
 package com.github.flamingsharky.darkagesexpedition.datageneration;
 
+import com.github.flamingsharky.darkagesexpedition.datageneration.custom.DAEBlockTags;
+import com.github.flamingsharky.darkagesexpedition.datageneration.custom.DAEItemTags;
+import com.github.flamingsharky.darkagesexpedition.datageneration.loot.DAELootTables;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -12,7 +15,7 @@ public class DataGenerators {
     public static void gatherData(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();
         if (event.includeServer()) {
-            generator.addProvider(new DAERecipes(generator));
+            generator.addProvider(new DAERecipeProvider(generator));
             generator.addProvider(new DAELootTables(generator));
             DAEBlockTags blockTags = new DAEBlockTags(generator, event.getExistingFileHelper());
             generator.addProvider(blockTags);

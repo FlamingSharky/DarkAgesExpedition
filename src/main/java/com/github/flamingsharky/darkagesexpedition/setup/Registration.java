@@ -4,6 +4,7 @@ import com.github.flamingsharky.darkagesexpedition.DAEMod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -29,11 +30,11 @@ public class Registration {
             ITEMS.register(bus);
     }
     //Tags
-    public static final Tags.IOptionalNamedTag<Block> VENEUM_BLOCKS = BlockTags.createOptional(new ResourceLocation(DAEMod.MOD_ID, "veneum_blocks"));
-    public static final Tags.IOptionalNamedTag<Item> VENEUM_BLOCKS_ITEM = ItemTags.createOptional(new ResourceLocation(DAEMod.MOD_ID, "veneum_blocks"));
+    public static final TagKey<Block> VENEUM_BLOCKS = BlockTags.create(new ResourceLocation(DAEMod.MOD_ID, "veneum_blocks"));
+    public static final TagKey<Item> VENEUM_BLOCKS_ITEM = ItemTags.create(new ResourceLocation(DAEMod.MOD_ID, "veneum_blocks"));
 
-    public static final Tags.IOptionalNamedTag<Block> SANCTUM_BLOCKS = BlockTags.createOptional(new ResourceLocation(DAEMod.MOD_ID, "sanctum_blocks"));
-    public static final Tags.IOptionalNamedTag<Item> SANCTUM_BLOCKS_ITEM = ItemTags.createOptional(new ResourceLocation(DAEMod.MOD_ID, "sanctum_blocks"));
+    public static final TagKey<Block> SANCTUM_BLOCKS = BlockTags.create(new ResourceLocation(DAEMod.MOD_ID, "sanctum_blocks"));
+    public static final TagKey<Item> SANCTUM_BLOCKS_ITEM = ItemTags.create(new ResourceLocation(DAEMod.MOD_ID, "sanctum_blocks"));
 
 
     //BLOCKS
@@ -54,7 +55,7 @@ public class Registration {
 
     public static final RegistryObject<Block> SANCTUM_ORE = BLOCKS.register("sanctum_ore", () -> new Block(SANCTUM_PROPERTIES));
     public static final RegistryObject<Block> DEEPSLATE_SANCTUM_ORE = BLOCKS.register("deepslate-sanctum_ore", () -> new Block(SANCTUM_PROPERTIES));
-    public static final RegistryObject<Block> TUFF_SANCTUM_ORE = BLOCKS.register("tuff-sanctum_ore", () -> new Block(VENEUM_PROPERTIES));
+    public static final RegistryObject<Block> TUFF_SANCTUM_ORE = BLOCKS.register("tuff-sanctum_ore", () -> new Block(SANCTUM_PROPERTIES));
     public static final RegistryObject<Block> RAW_SANCTUM_BLOCK = BLOCKS.register("raw-sanctum_block", () -> new Block(SANCTUM_PROPERTIES));
     public static final RegistryObject<Block> SANCTUM_BLOCK = BLOCKS.register("sanctum_block", () -> new Block(SANCTUM_PROPERTIES));
 
