@@ -28,18 +28,13 @@ public class DAEMod
     public DAEMod() {
 
         Registration.init();
-
-
         // Register ourselves for server and other game events we are interested in
-        MinecraftForge.EVENT_BUS.register(this);
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(ModSetup::init);
         if (FMLEnvironment.dist == Dist.CLIENT) {
             eventBus.addListener(ClientSetup::init);
         }
-
         ModSetup.setup();
-        Registration.init();
         Tool_List.register(eventBus);
     }
 
