@@ -15,17 +15,15 @@ Hey y'all! Maybe check out my 1.16.5 MC modpack on CurseForge - It's a pure medi
 
 ||
 
-Woahcool is a sprite artist who despite being the youngest in the team, he makes really high quality sprites even with just 20x20. He might be the youngest, but his knowledge for art is not bound by age as he probably has the most knowledge as all of us in Minecraft pixel art. His ideas, meanwhile not the most concrete, his creativity added to it allowed us to evolve the ideas into what we have now.
+Woahcool is a sprite artist who despite being the youngest in the team, he makes really high quality sprites even with just 20x20. He might be the youngest, but his knowledge for art is not bound by age as he probably has the most knowledge as all of us in Minecraft pixel art. His ideas, meanwhile not the most concrete, with his creativity added to it allowed us to evolve the ideas into what we have now.
 
 Here is a message from Woah:
 Nothing yet.
 
 ||
 
-Universe is the second sprite artist for the mod, he has had roots from Terraria since 2018 and has been working on Terraria mods for a while now. He is a useful part of the dev team as he reminds us not to stay too bland and unoriginal. He has helped us out in formulating the ideas as well by bringing his past experience into the table by reminding us that we shouldn't treat it like we are colleagues, but instead with the mod team being like a new friend group. 
-
-Here is a message from Universe:
-Nothing yet.
+Divinity is a programmer for the mod, he's been working with his own mod recently but we hope to have a good time with him and helps us out carving this path of the journey we are taking.
+Here is a message from Divinity:
 
 
 
