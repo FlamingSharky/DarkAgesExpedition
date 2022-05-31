@@ -10,7 +10,7 @@ updateJSONURL="https://github.com/FlamingSharky/DarkAgesExpedition"
 displayURL="Dark Ages Expedition Curseforge Page"
 logoFile="logo.png"
 credits="Thanks for downloading!"
-authors="Sharky"
+authors="Sharky, Divinity, woah, and JuanCGutro"
 description='''
       Imagine a world where the past is the present. Done? Well this is that but instead this is Minecraft (Video Game). The world is full of legends, myths, kingdoms, and science. You sir, lass or any pronoun, have been allowed to go in search of whatever goal you may have, we intend to make said goal harder, funner, and hopefully, worth the time.
       '''
@@ -19,7 +19,7 @@ description='''
 [[dependencies.darkagesexpedition]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[39,)" #mandatory
+    versionRange="[40,)" #mandatory
     ordering="NONE"
     side="BOTH"
 
