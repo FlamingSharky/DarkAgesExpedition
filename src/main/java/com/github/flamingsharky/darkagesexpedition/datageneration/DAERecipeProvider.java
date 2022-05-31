@@ -21,7 +21,7 @@ public class DAERecipeProvider extends RecipeProvider implements IConditionBuild
         //Veneum Crafting Recipes
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.VENEUM_ORE_ITEM.get()),
                         Registration.VENEUM_INGOT.get(), 1.0f, 200)
-                .unlockedBy("has_zore", has(Registration.VENEUM_ORE_ITEM.get()))
+                .unlockedBy("has_ore", has(Registration.VENEUM_ORE_ITEM.get()))
                 .save(consumer, "veneum_ingot1");
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.DEEPSLATE_VENEUM_ORE_ITEM.get()),
                         Registration.VENEUM_INGOT.get(), 1.0f, 200)
