@@ -24,7 +24,10 @@ public class DAEBlockStates extends BlockStateProvider {
         simpleBlock(Registration.SANCTUM_BLOCK.get());
         simpleBlock(Registration.SANCTUM_ORE.get());
         simpleBlock(Registration.DEEPSLATE_SANCTUM_ORE.get());
-        simpleBlock(Registration.TUFF_SANCTUM_ORE.get());
-        simpleBlock(Registration.RAW_SANCTUM_BLOCK.get());
+
+        // EVERYTHING COMMENTED OUT NEEDS TEXTURES!!
+
+        // simpleBlock(Registration.TUFF_SANCTUM_ORE.get());
+        // simpleBlock(Registration.RAW_SANCTUM_BLOCK.get());
     }
 }

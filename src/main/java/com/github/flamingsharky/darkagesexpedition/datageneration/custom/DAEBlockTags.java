@@ -8,7 +8,7 @@ import net.minecraft.tags.BlockTags;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
-public class DAEBlockTags  extends BlockTagsProvider {
+public class DAEBlockTags extends BlockTagsProvider {
 
     public DAEBlockTags(DataGenerator generator, ExistingFileHelper helper) {
         super(generator, DAEMod.MOD_ID, helper);

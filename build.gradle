@@ -45,6 +45,17 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.console.level', 'debug'
         }
+
+        data {
+            workingDirectory project.file('run')
+            property 'forge.logging.console.level', 'debug'
+            args '--mod', 'darkagesexpedition', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            mods {
+                darkagesexpedition {
+                    source sourceSets.main
+                }
+            }
+        }
     }
 }
 

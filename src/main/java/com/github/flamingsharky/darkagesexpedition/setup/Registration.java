@@ -45,18 +45,18 @@ public class Registration {
     public static final BlockBehaviour.Properties VENEUM_PROPERTIES = BlockBehaviour.Properties.of(Material.METAL).strength(3F).requiresCorrectToolForDrops();
 
     public static final RegistryObject<Block> VENEUM_ORE = BLOCKS.register("veneum_ore", () -> new Block(VENEUM_PROPERTIES));
-    public static final RegistryObject<Block> DEEPSLATE_VENEUM_ORE = BLOCKS.register("deepslate-veneum_ore", () -> new Block(VENEUM_PROPERTIES));
-    public static final RegistryObject<Block> TUFF_VENEUM_ORE = BLOCKS.register("tuff-veneum_ore", () -> new Block(VENEUM_PROPERTIES));
-    public static final RegistryObject<Block> RAW_VENEUM_BLOCK = BLOCKS.register("raw-veneum_block", () -> new Block(VENEUM_PROPERTIES));
+    public static final RegistryObject<Block> DEEPSLATE_VENEUM_ORE = BLOCKS.register("deepslate_veneum_ore", () -> new Block(VENEUM_PROPERTIES));
+    public static final RegistryObject<Block> TUFF_VENEUM_ORE = BLOCKS.register("tuff_veneum_ore", () -> new Block(VENEUM_PROPERTIES));
+    public static final RegistryObject<Block> RAW_VENEUM_BLOCK = BLOCKS.register("raw_veneum_block", () -> new Block(VENEUM_PROPERTIES));
     public static final RegistryObject<Block> VENEUM_BLOCK = BLOCKS.register("veneum_block", () -> new Block(VENEUM_PROPERTIES));
 
     //SANCTUM
     public static final BlockBehaviour.Properties SANCTUM_PROPERTIES = BlockBehaviour.Properties.of(Material.METAL).strength(3F).requiresCorrectToolForDrops();
 
     public static final RegistryObject<Block> SANCTUM_ORE = BLOCKS.register("sanctum_ore", () -> new Block(SANCTUM_PROPERTIES));
-    public static final RegistryObject<Block> DEEPSLATE_SANCTUM_ORE = BLOCKS.register("deepslate-sanctum_ore", () -> new Block(SANCTUM_PROPERTIES));
-    public static final RegistryObject<Block> TUFF_SANCTUM_ORE = BLOCKS.register("tuff-sanctum_ore", () -> new Block(SANCTUM_PROPERTIES));
-    public static final RegistryObject<Block> RAW_SANCTUM_BLOCK = BLOCKS.register("raw-sanctum_block", () -> new Block(SANCTUM_PROPERTIES));
+    public static final RegistryObject<Block> DEEPSLATE_SANCTUM_ORE = BLOCKS.register("deepslate_sanctum_ore", () -> new Block(SANCTUM_PROPERTIES));
+    public static final RegistryObject<Block> TUFF_SANCTUM_ORE = BLOCKS.register("tuff_sanctum_ore", () -> new Block(SANCTUM_PROPERTIES));
+    public static final RegistryObject<Block> RAW_SANCTUM_BLOCK = BLOCKS.register("raw_sanctum_block", () -> new Block(SANCTUM_PROPERTIES));
     public static final RegistryObject<Block> SANCTUM_BLOCK = BLOCKS.register("sanctum_block", () -> new Block(SANCTUM_PROPERTIES));
 
     //Block Item (Probably should use a different note name since there is already a value which is BlockItem, but it just gets the block and turns it into an item.)

@@ -17,6 +17,5 @@ public class Weapon_Tiers {
 /*    public static final ForgeTier GOLDCRUST = new ForgeTier(2, 632, 8f,
             2f, 22, BlockTags.NEEDS_IRON_TOOL,
             () -> Ingredient.of(Items.GOLD_INGOT, Items.IRON_INGOT));*/
-
 }
 

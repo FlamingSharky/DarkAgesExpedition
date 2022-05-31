@@ -1,18 +1,16 @@
 package com.github.flamingsharky.darkagesexpedition;
 
 
-import com.github.flamingsharky.darkagesexpedition.setup.Tool_List;
 import com.github.flamingsharky.darkagesexpedition.setup.ClientSetup;
 import com.github.flamingsharky.darkagesexpedition.setup.ModSetup;
 import com.github.flamingsharky.darkagesexpedition.setup.Registration;
+import com.github.flamingsharky.darkagesexpedition.setup.Tool_List;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.DistExecutor;
-import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLEnvironment;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -26,7 +24,6 @@ public class DAEMod
     public static final String MOD_ID = "darkagesexpedition";
 
     public DAEMod() {
-
         Registration.init();
         // Register ourselves for server and other game events we are interested in
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();

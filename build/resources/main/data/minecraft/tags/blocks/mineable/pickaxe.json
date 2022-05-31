@@ -3,13 +3,13 @@
   "values": [
     "darkagesexpedition:veneum_block",
     "darkagesexpedition:veneum_ore",
-    "darkagesexpedition:deepslate-veneum_ore",
-    "darkagesexpedition:tuff-veneum_ore",
-    "darkagesexpedition:raw-veneum_block",
+    "darkagesexpedition:deepslate_veneum_ore",
+    "darkagesexpedition:tuff_veneum_ore",
+    "darkagesexpedition:raw_veneum_block",
     "darkagesexpedition:sanctum_block",
     "darkagesexpedition:sanctum_ore",
-    "darkagesexpedition:deepslate-sanctum_ore",
-    "darkagesexpedition:tuff-sanctum_ore",
-    "darkagesexpedition:raw-sanctum_block"
+    "darkagesexpedition:deepslate_sanctum_ore",
+    "darkagesexpedition:tuff_sanctum_ore",
+    "darkagesexpedition:raw_sanctum_block"
   ]
 }
