@@ -2,7 +2,6 @@ package com.github.flamingsharky.darkagesexpedition.datageneration;
 
 import com.github.flamingsharky.darkagesexpedition.DAEMod;
 import com.github.flamingsharky.darkagesexpedition.setup.Registration;
-import com.github.flamingsharky.darkagesexpedition.setup.Tool_List;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -28,6 +27,9 @@ public class DAEItemModels extends ItemModelProvider {
         withExistingParent(Registration.SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/sanctum_ore"));
         withExistingParent(Registration.DEEPSLATE_SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate_sanctum_ore"));
 
+
+
+
         // EVERYTHING COMMENTED OUT NEEDS TEXTURES!!
 
 /*      withExistingParent(Registration.TUFF_SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/tuff_sanctum_ore"));
@@ -35,13 +37,13 @@ public class DAEItemModels extends ItemModelProvider {
 
         //ITEMS
         //To get the simple things here, here are the normal vanilla metal weapons
-        singleTexture(Tool_List.IRON_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/iron_longsword"));
-        singleTexture(Tool_List.IRON_DAGGER.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/iron_dagger"));
-        singleTexture(Tool_List.IRON_WARAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/iron_waraxe"));
+        singleTexture(Tool_List.IRON_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/iron_longsword"));
+        singleTexture(Tool_List.IRON_DAGGER.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/iron_dagger"));
+        singleTexture(Tool_List.IRON_WARAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/iron_waraxe"));
 
-        singleTexture(Tool_List.DIAMOND_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/diamond_longsword"));
-        singleTexture(Tool_List.DIAMOND_DAGGER.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/diamond_dagger"));
-        singleTexture(Tool_List.DIAMOND_WARAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/diamond_waraxe"));
+        singleTexture(Tool_List.DIAMOND_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/diamond_longsword"));
+        singleTexture(Tool_List.DIAMOND_DAGGER.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/diamond_dagger"));
+        singleTexture(Tool_List.DIAMOND_WARAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/diamond_waraxe"));
 
         //SANCTUM
         singleTexture(Registration.RAW_SANCTUM.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/raw_sanctum"));
@@ -49,15 +51,15 @@ public class DAEItemModels extends ItemModelProvider {
         singleTexture(Registration.SANCTUM_NUGGET.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/sanctum_nugget"));
 
         //SANCTUM WEAPONS AND TOOLS
-        singleTexture(Tool_List.SANCTUM_SWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/sanctum_sword"));
-        singleTexture(Tool_List.SANCTUM_PICKAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/sanctum_pickaxe"));
-        singleTexture(Tool_List.SANCTUM_AXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/sanctum_axe"));
-        singleTexture(Tool_List.SANCTUM_SHOVEL.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/sanctum_shovel"));
-        singleTexture(Tool_List.SANCTUM_HOE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/sanctum_hoe"));
+        singleTexture(Tool_List.SANCTUM_SWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/sanctum_sword"));
+        singleTexture(Tool_List.SANCTUM_PICKAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/sanctum_pickaxe"));
+        singleTexture(Tool_List.SANCTUM_AXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/sanctum_axe"));
+        singleTexture(Tool_List.SANCTUM_SHOVEL.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/sanctum_shovel"));
+        singleTexture(Tool_List.SANCTUM_HOE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/sanctum_hoe"));
 
-        singleTexture(Tool_List.SANCTUM_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/sanctum_longsword"));
-        singleTexture(Tool_List.SANCTUM_DAGGER.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/sanctum_dagger"));
-        singleTexture(Tool_List.SANCTUM_WARAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/sanctum_waraxe"));
+        singleTexture(Tool_List.SANCTUM_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/sanctum_longsword"));
+        singleTexture(Tool_List.SANCTUM_DAGGER.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/sanctum_dagger"));
+        singleTexture(Tool_List.SANCTUM_WARAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/sanctum_waraxe"));
 
 
         //VENEUM
@@ -66,14 +68,14 @@ public class DAEItemModels extends ItemModelProvider {
         singleTexture(Registration.VENEUM_NUGGET.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_nugget"));
 
         //VENEUM WEAPONS AND TOOLS
-        singleTexture(Tool_List.VENEUM_SWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/veneum_sword"));
-        singleTexture(Tool_List.VENEUM_PICKAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/veneum_pickaxe"));
-        singleTexture(Tool_List.VENEUM_AXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/veneum_axe"));
-        singleTexture(Tool_List.VENEUM_SHOVEL.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/veneum_shovel"));
-        singleTexture(Tool_List.VENEUM_HOE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/veneum_hoe"));
+        singleTexture(Tool_List.VENEUM_SWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_sword"));
+        singleTexture(Tool_List.VENEUM_PICKAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_pickaxe"));
+        singleTexture(Tool_List.VENEUM_AXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_axe"));
+        singleTexture(Tool_List.VENEUM_SHOVEL.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_shovel"));
+        singleTexture(Tool_List.VENEUM_HOE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_hoe"));
 
-        singleTexture(Tool_List.VENEUM_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/veneum_longsword"));
-        singleTexture(Tool_List.VENEUM_DAGGER.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/veneum_dagger"));
-        singleTexture(Tool_List.VENEUM_WARAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/weapons/veneum_waraxe"));*/
+        singleTexture(Tool_List.VENEUM_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_longsword"));
+        singleTexture(Tool_List.VENEUM_DAGGER.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_dagger"));
+        singleTexture(Tool_List.VENEUM_WARAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_waraxe"));*/
     }
 }

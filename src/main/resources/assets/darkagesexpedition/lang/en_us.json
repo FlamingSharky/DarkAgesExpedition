@@ -5,19 +5,19 @@
   "item.darkagesexpedition.veneum_ingot": "Veneum Ingot",
   "item.darkagesexpedition.veneum_nugget": "Veneum Nugget",
   "block.darkagesexpedition.veneum_ore": "Veneum Ore",
-  "block.darkagesexpedition.raw-veneum_block": "Raw Veneum Block",
+  "block.darkagesexpedition.raw_veneum_block": "Raw Veneum Block",
   "block.darkagesexpedition.veneum_block": "Veneum Block",
-  "block.darkagesexpedition.deepslate-veneum_ore": "Deepslate Veneum Ore",
-  "block.darkagesexpedition.tuff-veneum_ore": "Tuff Veneum Ore",
+  "block.darkagesexpedition.deepslate_veneum_ore": "Deepslate Veneum Ore",
+  "block.darkagesexpedition.tuff_veneum_ore": "Tuff Veneum Ore",
 
   "item.darkagesexpedition.raw_sanctum": "Raw Sanctum",
   "item.darkagesexpedition.sanctum_ingot": "Sanctum Ingot",
   "item.darkagesexpedition.sanctum_nugget": "Sanctum Nugget",
   "block.darkagesexpedition.sanctum_ore": "Sanctum Ore",
-  "block.darkagesexpedition.raw-sanctum_block": "Raw Sanctum Block",
+  "block.darkagesexpedition.raw_sanctum_block": "Raw Sanctum Block",
   "block.darkagesexpedition.sanctum_block": "Sanctum Block",
-  "block.darkagesexpedition.deepslate-sanctum_ore": "Deepslate Sanctum Ore",
-  "block.darkagesexpedition.tuff-sanctum_ore": "Tuff Sanctum Ore",
+  "block.darkagesexpedition.deepslate_sanctum_ore": "Deepslate Sanctum Ore",
+  "block.darkagesexpedition.tuff_sanctum_ore": "Tuff Sanctum Ore",
 
 
   "item.darkagesexpedition.sanctum_sword": "Sanctum Sword",
@@ -34,19 +34,19 @@
 
   "item.darkagesexpedition.iron_longsword": "Iron Longsword",
   "item.darkagesexpedition.diamond_longsword": "Diamond Longsword",
-  "item.darkagesexpedition.goldcrust_longsword": "Gold-Crusted Longsword",
+  "item.darkagesexpedition.goldcrust_longsword": "Gold_Crusted Longsword",
   "item.darkagesexpedition.sanctum_longsword": "Sanctum Longsword",
   "item.darkagesexpedition.veneum_longsword": "Veneum Longsword",
 
   "item.darkagesexpedition.iron_waraxe": "Iron Waraxe",
   "item.darkagesexpedition.diamond_waraxe": "Diamond Waraxe",
-  "item.darkagesexpedition.goldcrust_waraxe": "Gold-Crusted Waraxe",
+  "item.darkagesexpedition.goldcrust_waraxe": "Gold_Crusted Waraxe",
   "item.darkagesexpedition.sanctum_waraxe": "Sanctum Waraxe",
   "item.darkagesexpedition.veneum_waraxe": "Veneum Waraxe",
 
   "item.darkagesexpedition.iron_dagger": "Iron Dagger",
   "item.darkagesexpedition.diamond_dagger": "Diamond Dagger",
-  "item.darkagesexpedition.goldcrust_dagger": "Gold-Crusted Dagger",
+  "item.darkagesexpedition.goldcrust_dagger": "Gold_  Crusted Dagger",
   "item.darkagesexpedition.sanctum_dagger": "Sanctum Dagger",
   "item.darkagesexpedition.veneum_dagger": "Veneum Dagger"
 }

@@ -12,9 +12,8 @@ logoFile="logo.png"
 credits="Thanks for downloading!"
 authors="Sharky, Divinity, woah, and JuanCGutro"
 description='''
-      Imagine a world where the past is the present. Done? Well this is that but instead this is Minecraft (Video Game). The world is full of legends, myths, kingdoms, and science. You sir, lass or any pronoun, have been allowed to go in search of whatever goal you may have, we intend to make said goal harder, funner, and hopefully, worth the time.
-      '''
-
+Imagine a world where the past is the present. Done? Well this is that but instead this is Minecraft (Video Game). The world is full of legends, myths, kingdoms, and science. You sir, lass or any pronoun, have been allowed to go in search of whatever goal you may have, we intend to make said goal harder, funner, and hopefully, worth the time.
+'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.darkagesexpedition]] #optional
     modId="forge" #mandatory
@@ -27,6 +26,6 @@ description='''
 [[dependencies.darkagesexpedition]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.1,1.19)"
+    versionRange="[1.18.2]"
     ordering="NONE"
     side="BOTH"
