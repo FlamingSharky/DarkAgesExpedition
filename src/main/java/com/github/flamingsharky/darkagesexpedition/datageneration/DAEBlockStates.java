@@ -18,12 +18,12 @@ public class DAEBlockStates extends BlockStateProvider {
         simpleBlock(Registration.VENEUM_ORE.get());
         simpleBlock(Registration.DEEPSLATE_VENEUM_ORE.get());
         simpleBlock(Registration.TUFF_VENEUM_ORE.get());
-        simpleBlock(Registration.RAW_VENEUM_BLOCK.get());
+        // simpleBlock(Registration.RAW_VENEUM_BLOCK.get());
 
 
         simpleBlock(Registration.SANCTUM_BLOCK.get());
-        simpleBlock(Registration.SANCTUM_ORE.get());
-        simpleBlock(Registration.DEEPSLATE_SANCTUM_ORE.get());
+        // simpleBlock(Registration.SANCTUM_ORE.get());
+        // simpleBlock(Registration.DEEPSLATE_SANCTUM_ORE.get());
 
         // EVERYTHING COMMENTED OUT NEEDS TEXTURES!!
 

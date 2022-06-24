@@ -8,7 +8,6 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -71,13 +70,10 @@ public class Registration {
     public static final RegistryObject<Item> TUFF_SANCTUM_ORE_ITEM = fromBlock(TUFF_SANCTUM_ORE);
     public static final RegistryObject<Item> RAW_SANCTUM_BLOCK_ITEM = fromBlock(RAW_SANCTUM_BLOCK);
     public static final RegistryObject<Item> SANCTUM_BLOCK_ITEM = fromBlock(SANCTUM_BLOCK);
-
-    public static final RegistryObject<Item> SANCTUM_INGOT = ITEMS.register("sanctum_ingot",
-            () -> new Item(ITEM_PROPERTIES));
-    public static final RegistryObject<Item> SANCTUM_NUGGET = ITEMS.register("sanctum_nugget",
-            () -> new Item(ITEM_PROPERTIES));
-    public static final RegistryObject<Item> RAW_SANCTUM = ITEMS.register("raw_sanctum",
-            () -> new Item(ITEM_PROPERTIES));
+    
+    public static final RegistryObject<Item> SANCTUM_INGOT = ITEMS.register("sanctum_ingot", () -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> SANCTUM_NUGGET = ITEMS.register("sanctum_nugget", () -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> RAW_SANCTUM = ITEMS.register("raw_sanctum", () -> new Item(ITEM_PROPERTIES));
 
     //VENEUM
     public static final RegistryObject<Item> VENEUM_ORE_ITEM = fromBlock(VENEUM_ORE);
@@ -85,11 +81,8 @@ public class Registration {
     public static final RegistryObject<Item> TUFF_VENEUM_ORE_ITEM = fromBlock(TUFF_VENEUM_ORE);
     public static final RegistryObject<Item> RAW_VENEUM_BLOCK_ITEM = fromBlock(RAW_VENEUM_BLOCK);
     public static final RegistryObject<Item> VENEUM_BLOCK_ITEM = fromBlock(VENEUM_BLOCK);
-
-    public static final RegistryObject<Item> VENEUM_INGOT = ITEMS.register("veneum_ingot",
-            () -> new Item(ITEM_PROPERTIES));
-    public static final RegistryObject<Item> VENEUM_NUGGET = ITEMS.register("veneum_nugget",
-            () -> new Item(ITEM_PROPERTIES));
-    public static final RegistryObject<Item> RAW_VENEUM = ITEMS.register("raw_veneum",
-            () -> new Item(ITEM_PROPERTIES));
+    
+    public static final RegistryObject<Item> VENEUM_INGOT = ITEMS.register("veneum_ingot", () -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> VENEUM_NUGGET = ITEMS.register("veneum_nugget", () -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> RAW_VENEUM = ITEMS.register("raw_veneum", () -> new Item(ITEM_PROPERTIES));
 }

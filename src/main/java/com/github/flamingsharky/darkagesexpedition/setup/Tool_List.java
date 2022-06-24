@@ -1,6 +1,10 @@
 package com.github.flamingsharky.darkagesexpedition.setup;
 
 import com.github.flamingsharky.darkagesexpedition.DAEMod;
+import com.github.flamingsharky.darkagesexpedition.items.SanctumSwordItem;
+import com.github.flamingsharky.darkagesexpedition.items.SanctumWarAxeItem;
+import com.github.flamingsharky.darkagesexpedition.items.VeneumSwordItem;
+import com.github.flamingsharky.darkagesexpedition.items.VeneumWarAxeItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,12 +19,9 @@ public class Tool_List {
 
     //Modded Metal Normal Weapons
     public static final RegistryObject<Item> VENEUM_SWORD = ITEMS.register("veneum_sword",
-            () -> new SwordItem(Weapon_Tiers.VENEUM, 3, -2.4f,
-                    new Item.Properties().tab(DAEMod.DAEModTab)));
-
+        () -> new VeneumSwordItem(3, -2.4f, new Item.Properties().tab(DAEMod.DAEModTab)));
     public static final RegistryObject<Item> SANCTUM_SWORD = ITEMS.register("sanctum_sword",
-            () -> new SwordItem(Weapon_Tiers.SANCTUM, 3, -2.4f,
-                    new Item.Properties().tab(DAEMod.DAEModTab)));
+        () -> new SanctumSwordItem(3, -2.4f, new Item.Properties().tab(DAEMod.DAEModTab)));
 
 
     public static final RegistryObject<Item> SANCTUM_PICKAXE = ITEMS.register("sanctum_pickaxe",
@@ -62,11 +63,9 @@ public class Tool_List {
             () -> new SwordItem(Weapon_Tiers.GOLDCRUST, 2, -2.8f,
                    new Item.Properties().tab(DAEMod.DAEModTab)));*/
     public static final RegistryObject<Item> VENEUM_LONGSWORD = ITEMS.register("veneum_longsword",
-            () -> new SwordItem(Weapon_Tiers.VENEUM, 4, -2.8f,
-                    new Item.Properties().tab(DAEMod.DAEModTab)));
+        () -> new VeneumSwordItem(4, -2.8f, new Item.Properties().tab(DAEMod.DAEModTab)));
     public static final RegistryObject<Item> SANCTUM_LONGSWORD = ITEMS.register("sanctum_longsword",
-            () -> new SwordItem(Weapon_Tiers.SANCTUM, 4, -2.8f,
-                    new Item.Properties().tab(DAEMod.DAEModTab)));
+        () -> new SanctumSwordItem(4, -2.8f, new Item.Properties().tab(DAEMod.DAEModTab)));
 
     //Waraxes
     public static final RegistryObject<Item> IRON_WARAXE = ITEMS.register("iron_waraxe",
@@ -79,11 +78,9 @@ public class Tool_List {
             () -> new AxeItem(Weapon_Tiers.GOLDCRUST, 10, 3f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));*/
     public static final RegistryObject<Item> VENEUM_WARAXE = ITEMS.register("veneum_waraxe",
-            () -> new AxeItem(Weapon_Tiers.VENEUM, 5, -3f,
-                    new Item.Properties().tab(DAEMod.DAEModTab)));
+            () -> new VeneumWarAxeItem(5, -3f, new Item.Properties().tab(DAEMod.DAEModTab)));
     public static final RegistryObject<Item> SANCTUM_WARAXE = ITEMS.register("sanctum_waraxe",
-            () -> new AxeItem(Weapon_Tiers.SANCTUM, 5, -3f,
-                    new Item.Properties().tab(DAEMod.DAEModTab)));
+            () -> new SanctumWarAxeItem(5, -3f, new Item.Properties().tab(DAEMod.DAEModTab)));
 
     //Daggers
     public static final RegistryObject<Item> IRON_DAGGER = ITEMS.register("iron_dagger",
@@ -96,11 +93,9 @@ public class Tool_List {
             () -> new SwordItem(Weapon_Tiers.GOLDCRUST, 10, 2f,
                     new Item.Properties().tab(DAEMod.DAEModTab)));*/
     public static final RegistryObject<Item> VENEUM_DAGGER = ITEMS.register("veneum_dagger",
-            () -> new SwordItem(Weapon_Tiers.VENEUM, 2, -1.8f,
-                    new Item.Properties().tab(DAEMod.DAEModTab)));
+            () -> new VeneumSwordItem(2, -1.8f, new Item.Properties().tab(DAEMod.DAEModTab)));
     public static final RegistryObject<Item> SANCTUM_DAGGER = ITEMS.register("sanctum_dagger",
-            () -> new SwordItem(Weapon_Tiers.SANCTUM, 2, -1.8f,
-                    new Item.Properties().tab(DAEMod.DAEModTab)));
+            () -> new SanctumSwordItem(2, -1.8f, new Item.Properties().tab(DAEMod.DAEModTab)));
 
 
     public static void register(IEventBus eventBus) {
