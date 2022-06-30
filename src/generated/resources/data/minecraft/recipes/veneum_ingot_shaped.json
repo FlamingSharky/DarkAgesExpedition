@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "darkagesexpedition",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "darkagesexpedition:veneum_nugget"
+    }
+  },
+  "result": {
+    "item": "darkagesexpedition:veneum_ingot"
+  }
+}

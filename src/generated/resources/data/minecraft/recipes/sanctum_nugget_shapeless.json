@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "darkagesexpedition",
+  "ingredients": [
+    {
+      "item": "darkagesexpedition:sanctum_ingot"
+    }
+  ],
+  "result": {
+    "item": "darkagesexpedition:sanctum_nugget",
+    "count": 9
+  }
+}

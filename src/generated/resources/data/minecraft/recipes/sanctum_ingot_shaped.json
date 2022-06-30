@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "darkagesexpedition",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "darkagesexpedition:sanctum_nugget"
+    }
+  },
+  "result": {
+    "item": "darkagesexpedition:sanctum_ingot"
+  }
+}

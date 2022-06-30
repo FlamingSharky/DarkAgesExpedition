@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "darkagesexpedition",
+  "ingredients": [
+    {
+      "item": "darkagesexpedition:veneum_ingot"
+    }
+  ],
+  "result": {
+    "item": "darkagesexpedition:veneum_nugget",
+    "count": 9
+  }
+}

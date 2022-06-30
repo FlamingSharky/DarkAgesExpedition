@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "darkagesexpedition",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "darkagesexpedition:raw_sanctum"
+    }
+  },
+  "result": {
+    "item": "darkagesexpedition:raw_sanctum_block"
+  }
+}

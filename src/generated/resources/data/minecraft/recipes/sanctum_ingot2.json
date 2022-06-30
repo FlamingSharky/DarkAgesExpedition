@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "darkagesexpedition:deepslate_sanctum_ore"
+  },
+  "result": "darkagesexpedition:sanctum_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

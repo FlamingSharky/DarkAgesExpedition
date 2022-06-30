@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "darkagesexpedition:veneum_block",
+    "darkagesexpedition:veneum_ore",
+    "darkagesexpedition:deepslate_veneum_ore",
+    "darkagesexpedition:tuff_veneum_ore",
+    "darkagesexpedition:raw_veneum_block"
+  ]
+}

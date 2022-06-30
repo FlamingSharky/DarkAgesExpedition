@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "darkagesexpedition",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "darkagesexpedition:raw_veneum"
+    }
+  },
+  "result": {
+    "item": "darkagesexpedition:raw_veneum_block"
+  }
+}
