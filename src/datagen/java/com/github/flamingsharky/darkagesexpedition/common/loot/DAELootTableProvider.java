@@ -116,6 +116,6 @@ import java.util.Map;
 
     @Override
     public String getName() {
-        return "DAEMod LootTables";
+        return "DAExpedition LootTables";
     }
 }

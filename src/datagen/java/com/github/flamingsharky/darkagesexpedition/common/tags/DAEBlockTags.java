@@ -1,7 +1,8 @@
 package com.github.flamingsharky.darkagesexpedition.common.tags;
 
-import com.github.flamingsharky.darkagesexpedition.DAEMod;
-import com.github.flamingsharky.darkagesexpedition.setup.Registration;
+import com.github.flamingsharky.darkagesexpedition.DAExpedition;
+import com.github.flamingsharky.darkagesexpedition.common.registries.DABlocks;
+import com.github.flamingsharky.darkagesexpedition.common.registries.DATags;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.tags.BlockTagsProvider;
 import net.minecraft.tags.BlockTags;
@@ -11,72 +12,72 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 public class DAEBlockTags extends BlockTagsProvider {
 
     public DAEBlockTags(DataGenerator generator, ExistingFileHelper helper) {
-        super(generator, DAEMod.MOD_ID, helper);
+        super(generator, DAExpedition.MOD_ID, helper);
     }
 
     @Override
     protected void addTags() {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 //VENEUM
-                .add(Registration.VENEUM_BLOCK.get())
-                .add(Registration.VENEUM_ORE.get())
-                .add(Registration.DEEPSLATE_VENEUM_ORE.get())
-                .add(Registration.TUFF_VENEUM_ORE.get())
-                .add(Registration.RAW_VENEUM_BLOCK.get())
+                .add(DABlocks.VENEUM_BLOCK.get())
+                .add(DABlocks.VENEUM_ORE.get())
+                .add(DABlocks.DEEPSLATE_VENEUM_ORE.get())
+                .add(DABlocks.TUFF_VENEUM_ORE.get())
+                .add(DABlocks.RAW_VENEUM_BLOCK.get())
                 //SANCTUM
-                .add(Registration.SANCTUM_BLOCK.get())
-                .add(Registration.SANCTUM_ORE.get())
-                .add(Registration.DEEPSLATE_SANCTUM_ORE.get())
-                .add(Registration.TUFF_SANCTUM_ORE.get())
-                .add(Registration.RAW_SANCTUM_BLOCK.get());
+                .add(DABlocks.SANCTUM_BLOCK.get())
+                .add(DABlocks.SANCTUM_ORE.get())
+                .add(DABlocks.DEEPSLATE_SANCTUM_ORE.get())
+                .add(DABlocks.TUFF_SANCTUM_ORE.get())
+                .add(DABlocks.RAW_SANCTUM_BLOCK.get());
         tag(BlockTags.NEEDS_IRON_TOOL)
                 //VENEUM
-                .add(Registration.VENEUM_BLOCK.get())
-                .add(Registration.VENEUM_ORE.get())
-                .add(Registration.DEEPSLATE_VENEUM_ORE.get())
-                .add(Registration.TUFF_VENEUM_ORE.get())
-                .add(Registration.RAW_VENEUM_BLOCK.get())
+                .add(DABlocks.VENEUM_BLOCK.get())
+                .add(DABlocks.VENEUM_ORE.get())
+                .add(DABlocks.DEEPSLATE_VENEUM_ORE.get())
+                .add(DABlocks.TUFF_VENEUM_ORE.get())
+                .add(DABlocks.RAW_VENEUM_BLOCK.get())
                 //SANCTUM
-                .add(Registration.SANCTUM_BLOCK.get())
-                .add(Registration.SANCTUM_ORE.get())
-                .add(Registration.DEEPSLATE_SANCTUM_ORE.get())
-                .add(Registration.TUFF_SANCTUM_ORE.get())
-                .add(Registration.RAW_SANCTUM_BLOCK.get());
+                .add(DABlocks.SANCTUM_BLOCK.get())
+                .add(DABlocks.SANCTUM_ORE.get())
+                .add(DABlocks.DEEPSLATE_SANCTUM_ORE.get())
+                .add(DABlocks.TUFF_SANCTUM_ORE.get())
+                .add(DABlocks.RAW_SANCTUM_BLOCK.get());
         tag(BlockTags.STONE_ORE_REPLACEABLES)
                 //Pre-Diamond Metals
-                .add(Registration.VENEUM_ORE.get())
-                .add(Registration.SANCTUM_ORE.get());
+                .add(DABlocks.VENEUM_ORE.get())
+                .add(DABlocks.SANCTUM_ORE.get());
 
         tag(BlockTags.DEEPSLATE_ORE_REPLACEABLES)
                 //Pre-Diamond Metals
-                .add(Registration.DEEPSLATE_VENEUM_ORE.get())
-                .add(Registration.DEEPSLATE_SANCTUM_ORE.get());
+                .add(DABlocks.DEEPSLATE_VENEUM_ORE.get())
+                .add(DABlocks.DEEPSLATE_SANCTUM_ORE.get());
                 //Pre-Netherite Metals
         tag(Tags.Blocks.ORES)
                 //VENEUM
-                .add(Registration.VENEUM_ORE.get())
-                .add(Registration.DEEPSLATE_VENEUM_ORE.get())
-                .add(Registration.TUFF_VENEUM_ORE.get())
+                .add(DABlocks.VENEUM_ORE.get())
+                .add(DABlocks.DEEPSLATE_VENEUM_ORE.get())
+                .add(DABlocks.TUFF_VENEUM_ORE.get())
                 //SANCTUM
-                .add(Registration.SANCTUM_ORE.get())
-                .add(Registration.DEEPSLATE_SANCTUM_ORE.get())
-                .add(Registration.TUFF_SANCTUM_ORE.get());
-        tag(Registration.SANCTUM_BLOCKS)
-                .add(Registration.SANCTUM_BLOCK.get())
-                .add(Registration.SANCTUM_ORE.get())
-                .add(Registration.DEEPSLATE_SANCTUM_ORE.get())
-                .add(Registration.TUFF_SANCTUM_ORE.get())
-                .add(Registration.RAW_SANCTUM_BLOCK.get());
-        tag(Registration.VENEUM_BLOCKS)
-                .add(Registration.VENEUM_BLOCK.get())
-                .add(Registration.VENEUM_ORE.get())
-                .add(Registration.DEEPSLATE_VENEUM_ORE.get())
-                .add(Registration.TUFF_VENEUM_ORE.get())
-                .add(Registration.RAW_VENEUM_BLOCK.get());
+                .add(DABlocks.SANCTUM_ORE.get())
+                .add(DABlocks.DEEPSLATE_SANCTUM_ORE.get())
+                .add(DABlocks.TUFF_SANCTUM_ORE.get());
+        tag(DATags.Blocks.SANCTUM_BLOCKS)
+                .add(DABlocks.SANCTUM_BLOCK.get())
+                .add(DABlocks.SANCTUM_ORE.get())
+                .add(DABlocks.DEEPSLATE_SANCTUM_ORE.get())
+                .add(DABlocks.TUFF_SANCTUM_ORE.get())
+                .add(DABlocks.RAW_SANCTUM_BLOCK.get());
+        tag(DATags.Blocks.VENEUM_BLOCKS)
+                .add(DABlocks.VENEUM_BLOCK.get())
+                .add(DABlocks.VENEUM_ORE.get())
+                .add(DABlocks.DEEPSLATE_VENEUM_ORE.get())
+                .add(DABlocks.TUFF_VENEUM_ORE.get())
+                .add(DABlocks.RAW_VENEUM_BLOCK.get());
     }
 
     @Override
     public String getName() {
-        return "DAEMod Tags";
+        return "DAExpedition Tags";
     }
 }

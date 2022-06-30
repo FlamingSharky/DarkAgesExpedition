@@ -1,15 +1,14 @@
-package com.github.flamingsharky.darkagesexpedition.items;
+package com.github.flamingsharky.darkagesexpedition.common.items;
 
-import com.github.flamingsharky.darkagesexpedition.setup.Weapon_Tiers;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.SwordItem;
 
-public class VeneumSwordItem extends SwordItem {
-    public VeneumSwordItem(int attackDamageModifier, float attackSpeedModifier, Properties properties) {
-        super(Weapon_Tiers.VENEUM, attackDamageModifier, attackSpeedModifier, properties);
+public class VeneumWarAxeItem extends AxeItem {
+    public VeneumWarAxeItem(int attackDamageModifier, float attackSpeedModifier, Properties properties) {
+        super(WeaponTiers.VENEUM, attackDamageModifier, attackSpeedModifier, properties);
     }
     
     @Override
