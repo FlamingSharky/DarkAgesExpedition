@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "darkagesexpedition:veneum_ore",
+    "darkagesexpedition:deepslate_veneum_ore",
+    "darkagesexpedition:tuff_veneum_ore",
+    "darkagesexpedition:sanctum_ore",
+    "darkagesexpedition:deepslate_sanctum_ore",
+    "darkagesexpedition:tuff_sanctum_ore"
+  ]
+}

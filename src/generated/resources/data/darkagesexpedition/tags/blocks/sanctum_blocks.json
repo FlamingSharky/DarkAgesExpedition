@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "darkagesexpedition:sanctum_block",
+    "darkagesexpedition:sanctum_ore",
+    "darkagesexpedition:deepslate_sanctum_ore",
+    "darkagesexpedition:tuff_sanctum_ore",
+    "darkagesexpedition:raw_sanctum_block"
+  ]
+}

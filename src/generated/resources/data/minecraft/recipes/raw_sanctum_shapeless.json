@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "darkagesexpedition",
+  "ingredients": [
+    {
+      "item": "darkagesexpedition:raw_sanctum_block"
+    }
+  ],
+  "result": {
+    "item": "darkagesexpedition:raw_sanctum",
+    "count": 9
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "darkagesexpedition:deepslate_veneum_ore"
+  },
+  "result": "darkagesexpedition:veneum_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}
