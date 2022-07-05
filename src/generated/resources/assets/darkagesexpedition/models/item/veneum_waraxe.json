@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "darkagesexpedition:item/veneum_axe"
+    "layer0": "darkagesexpedition:item/veneum_waraxe"
   }
 }

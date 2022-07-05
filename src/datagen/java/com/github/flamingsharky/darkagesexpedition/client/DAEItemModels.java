@@ -22,26 +22,26 @@ public class DAEItemModels extends ItemModelProvider {
         withExistingParent(DAItems.TUFF_VENEUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/tuff_veneum_ore"));
         // withExistingParent(DAItems.RAW_VENEUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw_veneum_block"));
 
-        // SANCTUM
+        // SANCTUM BLOCKS
         withExistingParent(DAItems.SANCTUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/sanctum_block"));
-        // withExistingParent(DAItems.SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/sanctum_ore"));
-        // withExistingParent(DAItems.DEEPSLATE_SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate_sanctum_ore"));
-    
+        withExistingParent(DAItems.SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/sanctum_ore"));
+        withExistingParent(DAItems.DEEPSLATE_SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate_sanctum_ore"));
+        withExistingParent(DAItems.TUFF_SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/tuff_sanctum_ore"));
+        withExistingParent(DAItems.RAW_SANCTUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw_sanctum_block"));
+
+
+        //Weapons
+
         singleTexture(DAItems.SANCTUM_SWORD.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/sanctum_sword"));
+        singleTexture(DAItems.SANCTUM_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/sanctum_longsword"));
+        singleTexture(DAItems.SANCTUM_DAGGER.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/sanctum_dagger"));
+        singleTexture(DAItems.SANCTUM_WARAXE.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/sanctum_waraxe"));
+
         singleTexture(DAItems.VENEUM_SWORD.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/veneum_sword"));
         singleTexture(DAItems.VENEUM_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/veneum_longsword"));
-    
-        // TODO: Update texture when proper sprite gets added
-        singleTexture(DAItems.SANCTUM_LONGSWORD.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/sanctum_sword"));
-        singleTexture(DAItems.SANCTUM_DAGGER.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/sanctum_hoe"));
-        singleTexture(DAItems.SANCTUM_WARAXE.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/sanctum_axe"));
-        singleTexture(DAItems.VENEUM_DAGGER.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/veneum_hoe"));
-        singleTexture(DAItems.VENEUM_WARAXE.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/veneum_axe"));
-    
-        // EVERYTHING COMMENTED OUT NEEDS TEXTURES!!
+        singleTexture(DAItems.VENEUM_DAGGER.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/veneum_dagger"));
+        singleTexture(DAItems.VENEUM_WARAXE.get().getRegistryName().getPath(), mcLoc("item/handheld"), "layer0", modLoc("item/veneum_waraxe"));
 
-/*      withExistingParent(DAItems.TUFF_SANCTUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/tuff_sanctum_ore"));
-        withExistingParent(DAItems.RAW_SANCTUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw_sanctum_block"));
 
         //ITEMS
         //To get the simple things here, here are the normal vanilla metal weapons
@@ -76,6 +76,6 @@ public class DAEItemModels extends ItemModelProvider {
         singleTexture(DAItems.VENEUM_PICKAXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_pickaxe"));
         singleTexture(DAItems.VENEUM_AXE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_axe"));
         singleTexture(DAItems.VENEUM_SHOVEL.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_shovel"));
-        singleTexture(DAItems.VENEUM_HOE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_hoe"));*/
+        singleTexture(DAItems.VENEUM_HOE.get().getRegistryName().getPath(), mcLoc("item/generated"), "layer0", modLoc("item/veneum_hoe"));
     }
 }

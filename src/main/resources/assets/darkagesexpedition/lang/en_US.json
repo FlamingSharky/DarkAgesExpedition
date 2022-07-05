@@ -1,5 +1,5 @@
 {
-  "itemGroup.darkagescreativetab": "Dark Ages Expedition",
+  "itemGroup.darkagesexpedition": "Dark Ages Expedition",
 
   "item.darkagesexpedition.raw_veneum": "Raw Veneum",
   "item.darkagesexpedition.veneum_ingot": "Veneum Ingot",
@@ -34,19 +34,19 @@
 
   "item.darkagesexpedition.iron_longsword": "Iron Longsword",
   "item.darkagesexpedition.diamond_longsword": "Diamond Longsword",
-  "item.darkagesexpedition.goldcrust_longsword": "Gold_Crusted Longsword",
+  "item.darkagesexpedition.goldcrust_longsword": "Gold Crusted Longsword",
   "item.darkagesexpedition.sanctum_longsword": "Sanctum Longsword",
   "item.darkagesexpedition.veneum_longsword": "Veneum Longsword",
 
   "item.darkagesexpedition.iron_waraxe": "Iron Waraxe",
   "item.darkagesexpedition.diamond_waraxe": "Diamond Waraxe",
-  "item.darkagesexpedition.goldcrust_waraxe": "Gold_Crusted Waraxe",
+  "item.darkagesexpedition.goldcrust_waraxe": "Gold Crusted Waraxe",
   "item.darkagesexpedition.sanctum_waraxe": "Sanctum Waraxe",
   "item.darkagesexpedition.veneum_waraxe": "Veneum Waraxe",
 
   "item.darkagesexpedition.iron_dagger": "Iron Dagger",
   "item.darkagesexpedition.diamond_dagger": "Diamond Dagger",
-  "item.darkagesexpedition.goldcrust_dagger": "Gold_  Crusted Dagger",
+  "item.darkagesexpedition.goldcrust_dagger": "Gold Crusted Dagger",
   "item.darkagesexpedition.sanctum_dagger": "Sanctum Dagger",
   "item.darkagesexpedition.veneum_dagger": "Veneum Dagger"
 }
