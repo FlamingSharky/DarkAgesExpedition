@@ -24,12 +24,12 @@ public class DAItems {
     public static final RegistryObject<Item> SANCTUM_SWORD = ITEMS.register("sanctum_sword", () -> new SanctumSwordItem(3, -2.4f, DEFAULT_PROPERTIES));
     
     public static final RegistryObject<Item> SANCTUM_PICKAXE = ITEMS.register("sanctum_pickaxe", () -> new PickaxeItem(WeaponTiers.SANCTUM, 1, 1f, DEFAULT_PROPERTIES));
-    public static final RegistryObject<Item> SANCTUM_SHOVEL = ITEMS.register("sanctum_shovel", () -> new ShovelItem(WeaponTiers.SANCTUM, 0, 1f, DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> SANCTUM_SHOVEL = ITEMS.register("sanctum_shovel", () -> new ShovelItem(WeaponTiers.SANCTUM, 0, 0f, DEFAULT_PROPERTIES));
     public static final RegistryObject<Item> SANCTUM_AXE = ITEMS.register("sanctum_axe", () -> new AxeItem(WeaponTiers.SANCTUM, 4, 0f, DEFAULT_PROPERTIES));
     public static final RegistryObject<Item> SANCTUM_HOE = ITEMS.register("sanctum_hoe", () -> new HoeItem(WeaponTiers.SANCTUM, 0, 0f, DEFAULT_PROPERTIES));
     
-    public static final RegistryObject<Item> VENEUM_PICKAXE = ITEMS.register("veneum_pickaxe", () -> new PickaxeItem(WeaponTiers.SANCTUM, 1, 1f, DEFAULT_PROPERTIES));
-    public static final RegistryObject<Item> VENEUM_SHOVEL = ITEMS.register("veneum_shovel", () -> new ShovelItem(WeaponTiers.SANCTUM, 0, 1f, DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> VENEUM_PICKAXE = ITEMS.register("veneum_pickaxe", () -> new PickaxeItem(WeaponTiers.SANCTUM, 1, 0f, DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> VENEUM_SHOVEL = ITEMS.register("veneum_shovel", () -> new ShovelItem(WeaponTiers.SANCTUM, 0, 0f, DEFAULT_PROPERTIES));
     public static final RegistryObject<Item> VENEUM_AXE = ITEMS.register("veneum_axe", () -> new AxeItem(WeaponTiers.SANCTUM, 4, 0f, DEFAULT_PROPERTIES));
     public static final RegistryObject<Item> VENEUM_HOE = ITEMS.register("veneum_hoe", () -> new HoeItem(WeaponTiers.SANCTUM, 0, 0f, DEFAULT_PROPERTIES));
     
@@ -41,15 +41,15 @@ public class DAItems {
     public static final RegistryObject<Item> SANCTUM_LONGSWORD = ITEMS.register("sanctum_longsword", () -> new SanctumSwordItem(4, -2.8f, DEFAULT_PROPERTIES));
     
     //Waraxes
-    public static final RegistryObject<Item> IRON_WARAXE = ITEMS.register("iron_waraxe", () -> new AxeItem(Tiers.IRON, 4, 3f, DEFAULT_PROPERTIES));
-    public static final RegistryObject<Item> DIAMOND_WARAXE = ITEMS.register("diamond_waraxe", () -> new AxeItem(Tiers.DIAMOND, 5, 3f, DEFAULT_PROPERTIES));
-    // public static final RegistryObject<Item> GOLDCRUST_WARAXE = ITEMS.register("goldcrust_waraxe", () -> new AxeItem(WeaponTiers.GOLDCRUST, 10, 3f, DEFAULT_PROPERTIES));
-    public static final RegistryObject<Item> VENEUM_WARAXE = ITEMS.register("veneum_waraxe", () -> new VeneumWarAxeItem(5, -3f, DEFAULT_PROPERTIES));
-    public static final RegistryObject<Item> SANCTUM_WARAXE = ITEMS.register("sanctum_waraxe", () -> new SanctumWarAxeItem(5, -3f, DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> IRON_WARAXE = ITEMS.register("iron_waraxe", () -> new AxeItem(Tiers.IRON, 4, -3.3f, DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> DIAMOND_WARAXE = ITEMS.register("diamond_waraxe", () -> new AxeItem(Tiers.DIAMOND, 5, -3.3f, DEFAULT_PROPERTIES));
+    // public static final RegistryObject<Item> GOLDCRUST_WARAXE = ITEMS.register("goldcrust_waraxe", () -> new AxeItem(WeaponTiers.GOLDCRUST, 10, -3.3f, DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> VENEUM_WARAXE = ITEMS.register("veneum_waraxe", () -> new VeneumWarAxeItem(5, -3.3f, DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> SANCTUM_WARAXE = ITEMS.register("sanctum_waraxe", () -> new SanctumWarAxeItem(5, -3.3f, DEFAULT_PROPERTIES));
     
     //Daggers
-    public static final RegistryObject<Item> IRON_DAGGER = ITEMS.register("iron_dagger", () -> new SwordItem(Tiers.IRON, 1, 2f, DEFAULT_PROPERTIES));
-    public static final RegistryObject<Item> DIAMOND_DAGGER = ITEMS.register("diamond_dagger", () -> new SwordItem(Tiers.DIAMOND, 2, 2f, DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> IRON_DAGGER = ITEMS.register("iron_dagger", () -> new SwordItem(Tiers.IRON, 2, -1.8f, DEFAULT_PROPERTIES));
+    public static final RegistryObject<Item> DIAMOND_DAGGER = ITEMS.register("diamond_dagger", () -> new SwordItem(Tiers.DIAMOND,   2, -1.8f, DEFAULT_PROPERTIES));
     // public static final RegistryObject<Item> GOLDCRUST_DAGGER = ITEMS.register("goldcrust_dagger", () -> new SwordItem(WeaponTiers.GOLDCRUST, 10, 2f, DEFAULT_PROPERTIES));
     public static final RegistryObject<Item> VENEUM_DAGGER = ITEMS.register("veneum_dagger", () -> new VeneumSwordItem(2, -1.8f, DEFAULT_PROPERTIES));
     public static final RegistryObject<Item> SANCTUM_DAGGER = ITEMS.register("sanctum_dagger", () -> new SanctumSwordItem(2, -1.8f, DEFAULT_PROPERTIES));

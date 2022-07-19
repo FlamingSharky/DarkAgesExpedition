@@ -20,7 +20,7 @@ public class DAEItemModels extends ItemModelProvider {
         withExistingParent(DAItems.VENEUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/veneum_ore"));
         withExistingParent(DAItems.DEEPSLATE_VENEUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/deepslate_veneum_ore"));
         withExistingParent(DAItems.TUFF_VENEUM_ORE_ITEM.get().getRegistryName().getPath(), modLoc("block/tuff_veneum_ore"));
-        // withExistingParent(DAItems.RAW_VENEUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw_veneum_block"));
+        withExistingParent(DAItems.RAW_VENEUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/raw_veneum_block"));
 
         // SANCTUM BLOCKS
         withExistingParent(DAItems.SANCTUM_BLOCK_ITEM.get().getRegistryName().getPath(), modLoc("block/sanctum_block"));

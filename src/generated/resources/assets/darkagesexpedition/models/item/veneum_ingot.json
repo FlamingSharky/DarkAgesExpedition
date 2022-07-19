@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "darkagesexpedition:item/veneum_ingot"
+  }
+}

@@ -80,16 +80,6 @@ public class DAERecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("raw_veneum1", InventoryChangeTrigger.TriggerInstance.hasItems(DAItems.RAW_VENEUM_BLOCK_ITEM.get()))
                 .save(consumer, "veneum_raw_nugget1_shapeless");
 
-        //Veneum Weapons
-        ShapedRecipeBuilder.shaped(DAItems.VENEUM_LONGSWORD.get())
-                .pattern("  V")
-                .pattern("VV ")
-                .pattern("SV ")
-                .define('V', DAItems.VENEUM_INGOT.get())
-                .define('S', Items.STICK)
-                .group("darkagesexpedition")
-                .unlockedBy("veneum_longsword", InventoryChangeTrigger.TriggerInstance.hasItems(DAItems.VENEUM_INGOT.get()))
-                .save(consumer, "veneum_longsword_shaped");
 
         //Sanctum
         SimpleCookingRecipeBuilder.smelting(Ingredient.of(DAItems.SANCTUM_ORE_ITEM.get()),
@@ -154,6 +144,38 @@ public class DAERecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("raw_sanctum1", InventoryChangeTrigger.TriggerInstance.hasItems(DAItems.RAW_SANCTUM_BLOCK_ITEM.get()))
                 .save(consumer, "raw_sanctum_shapeless");
 
+
+        //Veneum Weapons
+        ShapedRecipeBuilder.shaped(DAItems.VENEUM_LONGSWORD.get())
+                .pattern("  V")
+                .pattern("VV ")
+                .pattern("SV ")
+                .define('V', DAItems.VENEUM_INGOT.get())
+                .define('S', Items.STICK)
+                .group("darkagesexpedition")
+                .unlockedBy("veneum_longsword", InventoryChangeTrigger.TriggerInstance.hasItems(DAItems.VENEUM_INGOT.get()))
+                .save(consumer, "veneum_longsword_shaped");
+
+        ShapedRecipeBuilder.shaped(DAItems.VENEUM_DAGGER.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("   ")
+                .define('V', DAItems.VENEUM_INGOT.get())
+                .define('S', Items.STICK)
+                .group("darkagesexpedition")
+                .unlockedBy("veneum_dagger", InventoryChangeTrigger.TriggerInstance.hasItems(DAItems.VENEUM_INGOT.get()))
+                .save(consumer, "veneum_dagger_shaped");
+
+        ShapedRecipeBuilder.shaped(DAItems.VENEUM_WARAXE.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("   ")
+                .define('V', DAItems.VENEUM_INGOT.get())
+                .define('S', Items.STICK)
+                .group("darkagesexpedition")
+                .unlockedBy("veneum_waraxe", InventoryChangeTrigger.TriggerInstance.hasItems(DAItems.VENEUM_INGOT.get()))
+                .save(consumer, "veneum_waraxe_shaped");
+
         //Sanctum Weapons
         ShapedRecipeBuilder.shaped(DAItems.SANCTUM_LONGSWORD.get())
                 .pattern("  V")
@@ -164,5 +186,25 @@ public class DAERecipeProvider extends RecipeProvider implements IConditionBuild
                 .group("darkagesexpedition")
                 .unlockedBy("sanctum_longsword", InventoryChangeTrigger.TriggerInstance.hasItems(DAItems.VENEUM_INGOT.get()))
                 .save(consumer, "sanctum_longsword_shaped");
+
+        ShapedRecipeBuilder.shaped(DAItems.SANCTUM_DAGGER.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("   ")
+                .define('V', DAItems.SANCTUM_INGOT.get())
+                .define('S', Items.STICK)
+                .group("darkagesexpedition")
+                .unlockedBy("sanctum_dagger", InventoryChangeTrigger.TriggerInstance.hasItems(DAItems.VENEUM_INGOT.get()))
+                .save(consumer, "sanctum_dagger_shaped");
+
+        ShapedRecipeBuilder.shaped(DAItems.SANCTUM_WARAXE.get())
+                .pattern("   ")
+                .pattern("   ")
+                .pattern("   ")
+                .define('V', DAItems.SANCTUM_INGOT.get())
+                .define('S', Items.STICK)
+                .group("darkagesexpedition")
+                .unlockedBy("sanctum_waraxe", InventoryChangeTrigger.TriggerInstance.hasItems(DAItems.VENEUM_INGOT.get()))
+                .save(consumer, "sanctum_waraxe_shaped");
     }
 }

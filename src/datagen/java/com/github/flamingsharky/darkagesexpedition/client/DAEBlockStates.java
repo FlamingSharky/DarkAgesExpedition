@@ -18,7 +18,7 @@ public class DAEBlockStates extends BlockStateProvider {
         simpleBlock(DABlocks.VENEUM_ORE.get());
         simpleBlock(DABlocks.DEEPSLATE_VENEUM_ORE.get());
         simpleBlock(DABlocks.TUFF_VENEUM_ORE.get());
-        //simpleBlock(DABlocks.RAW_VENEUM_BLOCK.get());
+        simpleBlock(DABlocks.RAW_VENEUM_BLOCK.get());
 
 
         simpleBlock(DABlocks.SANCTUM_BLOCK.get());
