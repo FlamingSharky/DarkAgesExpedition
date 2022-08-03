@@ -48,5 +48,8 @@
   "item.darkagesexpedition.diamond_dagger": "Diamond Dagger",
   "item.darkagesexpedition.goldcrust_dagger": "Gold Crusted Dagger",
   "item.darkagesexpedition.sanctum_dagger": "Sanctum Dagger",
-  "item.darkagesexpedition.veneum_dagger": "Veneum Dagger"
+  "item.darkagesexpedition.veneum_dagger": "Veneum Dagger",
+  
+  "effect.darkagesexpedition.bleed": "Bleeding",
+  "effect.darkagesexpedition.plague": "Plague"
 }

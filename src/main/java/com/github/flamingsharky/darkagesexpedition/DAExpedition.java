@@ -4,6 +4,7 @@ import com.github.flamingsharky.darkagesexpedition.client.ClientExecutor;
 import com.github.flamingsharky.darkagesexpedition.common.CommonExecutor;
 import com.github.flamingsharky.darkagesexpedition.common.registries.DABlocks;
 import com.github.flamingsharky.darkagesexpedition.common.registries.DAItems;
+import com.github.flamingsharky.darkagesexpedition.common.registries.DAMobEffects;
 import com.github.flamingsharky.darkagesexpedition.utils.ISidedExecutor;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
@@ -36,6 +37,7 @@ public class DAExpedition {
         EXECUTOR.setup();
         DABlocks.BLOCKS.register(eventBus);
         DAItems.ITEMS.register(eventBus);
+        DAMobEffects.EFFECTS.register(eventBus);
     }
     
     public static ResourceLocation resource(String path) {
