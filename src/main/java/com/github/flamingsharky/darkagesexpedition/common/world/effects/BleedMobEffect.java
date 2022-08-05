@@ -15,12 +15,12 @@ public class BleedMobEffect extends MobEffect {
 
 	@Override
 	public void applyEffectTick(LivingEntity pLivingEntity, int pAmplifier) {
-		pLivingEntity.hurt(DamageSource.GENERIC, (pAmplifier+1));
+		pLivingEntity.hurt(DamageSource.GENERIC, 0.5f);//(int)((pAmplifier * 0.5) + 1));
 	}
 	
 	@Override
 	public boolean isDurationEffectTick(int pDuration, int pAmplifier) {
-		int shift = 25 >> pAmplifier;
+		int shift = 20 >> pAmplifier;
 		if(pDuration % shift == 0) {
 			return true;
 		}
