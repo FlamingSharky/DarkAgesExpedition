@@ -16,16 +16,23 @@ Imagine a world where the past is the present. Done? Well this is that but inste
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.darkagesexpedition]] #optional
-    modId="forge" #mandatory
-    mandatory=true #mandatory
-    versionRange="[40,)" #mandatory
-    ordering="NONE"
-    side="BOTH"
+modId="geckolib" #mandatory
+mandatory=true #mandatory
+versionRange="[3.0.33,)" #mandatory
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.darkagesexpedition]] #optional
+modId="forge" #mandatory
+mandatory=true #mandatory
+versionRange="[40,)" #mandatory
+ordering="NONE"
+side="BOTH"
 
 # Here's another dependency
 [[dependencies.darkagesexpedition]]
-    modId="minecraft"
-    mandatory=true
-    versionRange="[1.18.2]"
-    ordering="NONE"
-    side="BOTH"
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2]"
+ordering="NONE"
+side="BOTH"

@@ -1,6 +1,8 @@
 # User-specific stuff
 .idea/
 src/test/
+.classpath
+.project
 
 *.iml
 *.ipr
@@ -105,6 +107,7 @@ $RECYCLE.BIN/
 
 .gradle
 build/
+bin/
 
 # Ignore Gradle GUI config
 gradle-app.setting
