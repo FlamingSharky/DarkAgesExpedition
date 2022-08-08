@@ -1,4 +1,4 @@
-package com.github.flamingsharky.darkagesexpedition.common.world.effects;
+package com.github.flamingsharky.darkagesexpedition.common.effects;
 
 import java.awt.Color;
 

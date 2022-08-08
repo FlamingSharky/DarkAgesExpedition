@@ -1,8 +1,8 @@
 package com.github.flamingsharky.darkagesexpedition.common.registries;
 
 import com.github.flamingsharky.darkagesexpedition.DAExpedition;
-import com.github.flamingsharky.darkagesexpedition.common.world.effects.BleedMobEffect;
-import com.github.flamingsharky.darkagesexpedition.common.world.effects.PlagueMobEffect;
+import com.github.flamingsharky.darkagesexpedition.common.effects.BleedMobEffect;
+import com.github.flamingsharky.darkagesexpedition.common.effects.PlagueMobEffect;
 
 import net.minecraft.world.effect.MobEffect;
 import net.minecraftforge.registries.DeferredRegister;

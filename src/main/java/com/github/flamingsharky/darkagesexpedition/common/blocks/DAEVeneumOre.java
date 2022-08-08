@@ -1,4 +1,4 @@
-package com.github.flamingsharky.darkagesexpedition.common.world.blocks;
+package com.github.flamingsharky.darkagesexpedition.common.blocks;
 
 
 import java.awt.Color;

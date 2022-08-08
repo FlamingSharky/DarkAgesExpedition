@@ -1,7 +1,7 @@
 package com.github.flamingsharky.darkagesexpedition.common.registries;
 
 import com.github.flamingsharky.darkagesexpedition.DAExpedition;
-import com.github.flamingsharky.darkagesexpedition.common.world.blocks.DAEVeneumOre;
+import com.github.flamingsharky.darkagesexpedition.common.blocks.DAEVeneumOre;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
