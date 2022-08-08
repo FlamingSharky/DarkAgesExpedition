@@ -16,10 +16,10 @@ Imagine a world where the past is the present. Done? Well this is that but inste
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.darkagesexpedition]] #optional
-modId="geckolib" #mandatory
+modId="geckolib3" #mandatory
 mandatory=true #mandatory
 versionRange="[3.0.33,)" #mandatory
-ordering="AFTER"
+ordering="BEFORE"
 side="BOTH"
 
 [[dependencies.darkagesexpedition]] #optional
